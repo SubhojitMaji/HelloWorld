@@ -1,5 +1,3 @@
 # Introduction
 
-This is a book created from markdown and executable code.
-
-See @knuth84 for additional discussion of literate programming.
+This is a website maintained by SUBHOJIT MAJI, who is a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/).My Special Interests are in Probability Theory.This site is created by me for organising the educational videos on my channel [MathsWithBerlin](https://www.youtube.com/@MathsWithBerlin/featured).Hope you all would enjoy browsing through it !!
