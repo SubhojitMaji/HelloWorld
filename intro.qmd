@@ -1,3 +1,7 @@
 # Introduction
 
-This is a website maintained by SUBHOJIT MAJI, who is a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/).My Special Interests are in Probability Theory.This site is created by me for organising the educational videos on my channel [MathsWithBerlin](https://www.youtube.com/@MathsWithBerlin/featured).Hope you all would enjoy browsing through it !!
+The 1st Video on the Channel was published on 5th July.
+{{< video https://youtu.be/DenopcPrV84?si=nOJba80IP0yYXQUe 
+    title='An Amazing Problem on LIMITS!!' 
+>}}
+The Problem was inspired from a question which appeared in a Russian Maths Olympiad.
