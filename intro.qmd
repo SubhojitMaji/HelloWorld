@@ -3,7 +3,7 @@ These are some of the works, I did in my B.Math Journey.
 
 
 ## Real Analysis
-I got some [Real Analysis](https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing) Notes for you all, by [Prof . BV Rajaram Bhatt](https://www.isibang.ac.in/~bhat/).
+I got some [Real Analysis](https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing) Notes for you all, by [Prof. BV Rajaram Bhatt](https://www.isibang.ac.in/~bhat/).
 
 ## Fundamentals of Computer Programming
 
@@ -21,7 +21,7 @@ This course is being taught by [Prof. Mathew Joseph](https://sites.google.com/vi
 Here are [Assignments](https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing) that were given to us as a Homework. The course was taken by [Prof. Ramdin Mawia](https://sites.google.com/view/ramdinmawia/home).
 
 ## Linear Algebra
-This was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and stuff like Resonance Articles. It was taken by [Prof . Anita Naolekar](https://www.isibang.ac.in/~statmath/homepage.html).
+This was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and stuff like Resonance Articles. It was taken by [Prof. Anita Naolekar](https://www.isibang.ac.in/~statmath/homepage.html).
 Here is a [link](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html) to the course page.
 
 ## 
