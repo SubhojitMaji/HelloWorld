@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.16)  16 NOV 2024 08:13
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.16)  17 NOV 2024 02:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,33 +890,19 @@ No file index.toc.
 [2
 
 ]
+chapter 1.
+
 
 [3
 
 ]
-chapter 1.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.475pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95099pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.66568pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.4755pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 226.
+chapter 2.
 
 
 [4
 
 ]
-chapter 2.
+chapter 3.
 
 
 [5
@@ -929,15 +915,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.244 \end{CSLReferences}
+l.239 \end{CSLReferences}
                           
 Here is how much of TeX's memory you used:
- 23348 strings out of 475933
- 452840 string characters out of 5775457
+ 23299 strings out of 475933
+ 451240 string characters out of 5775457
  1151334 words of memory out of 5000000
- 45882 multiletter control sequences out of 15000+600000
- 564468 words of font info for 82 fonts, out of 8000000 for 9000
+ 45846 multiletter control sequences out of 15000+600000
+ 561633 words of font info for 65 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 108i,7n,123p,10900b,431s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,7n,123p,10900b,397s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on index.pdf (5 pages).
