@@ -1,7 +1,2 @@
-# Introduction
-
-The 1st Video on the Channel was published on 5th July.
-{{< video https://youtu.be/DenopcPrV84?si=nOJba80IP0yYXQUe 
-    title='An Amazing Problem on LIMITS!!' 
->}}
-The Problem was inspired from a question which appeared in a Russian Maths Olympiad.
+# My Workings
+These are some of the works, I did in my B.Math Journey.
