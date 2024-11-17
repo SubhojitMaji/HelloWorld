@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.16)  17 NOV 2024 10:22
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.16)  17 NOV 2024 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -926,6 +926,12 @@ chapter 3.
 [6
 
 ]
+chapter 4.
+
+
+[7
+
+]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -933,15 +939,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.292 \end{CSLReferences}
+l.298 \end{CSLReferences}
                           
 Here is how much of TeX's memory you used:
- 23385 strings out of 475933
- 453844 string characters out of 5775457
+ 23386 strings out of 475933
+ 453850 string characters out of 5775457
  1155372 words of memory out of 5000000
- 45910 multiletter control sequences out of 15000+600000
+ 45911 multiletter control sequences out of 15000+600000
  564508 words of font info for 87 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  108i,7n,123p,10900b,397s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (6 pages).
+Output written on index.pdf (7 pages).
