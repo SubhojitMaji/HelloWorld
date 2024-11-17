@@ -2,11 +2,11 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MathsWithBerlin",
+    "title": "Embrace the Majesty",
     "section": "",
-    "text": "1 Preface\nThis is a website maintained by SUBHOJIT MAJI, who is a B.Math Undergraduate at Indian Statistical Institute, Bangalore Centre.My Special Interests are in Probability Theory.This site is created by me for organising the educational videos on my channel MathsWithBerlin.Hope you all would enjoy browsing through it !!",
+    "text": "1 About\nThis is a website maintained by SUBHOJIT MAJI, who is a B.Math Undergraduate at Indian Statistical Institute, Bangalore Centre. My Special Interests are in Probability Theory. This site is created by me for updating about my daily life. Hope you all would enjoy browsing through it !!",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>About</span>"
     ]
   },
   {
@@ -14,7 +14,57 @@
     "href": "intro.html",
     "title": "2  My Workings",
     "section": "",
-    "text": "These are some of the works, I did in my B.Math Journey.",
+    "text": "2.1 Real Analysis\nI got some Real Analysis Notes for you all, by Prof.BV Rajaram Bhatt.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#fundamentals-of-computer-programming",
+    "href": "intro.html#fundamentals-of-computer-programming",
+    "title": "2  My Workings",
+    "section": "2.2 Fundamentals of Computer Programming",
+    "text": "2.2 Fundamentals of Computer Programming\nWe did this course under Prof.Jishnu Gupta Biswas Here are a few resorces :-\n\nOG Book for C Programming\nMy B.Math FCP course link",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#probability-theory",
+    "href": "intro.html#probability-theory",
+    "title": "2  My Workings",
+    "section": "2.3 Probability Theory",
+    "text": "2.3 Probability Theory\nOne of the favourite topics of my interest. I would like to share my views on it(COMING SOON !!). This course is being taught by Prof. Mathew Joseph.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#elementary-number-theory",
+    "href": "intro.html#elementary-number-theory",
+    "title": "2  My Workings",
+    "section": "2.4 Elementary Number Theory",
+    "text": "2.4 Elementary Number Theory\nHere are Assignments that were given to us as a Homework. The course was taken by Prof.Ramdin Mawia.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#linear-algebra",
+    "href": "intro.html#linear-algebra",
+    "title": "2  My Workings",
+    "section": "2.5 Linear Algebra",
+    "text": "2.5 Linear Algebra\nThis was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and stuff like Resonance Articles. It was taken by Anita Naolekar. Here is a link to the course page.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#section",
+    "href": "intro.html#section",
+    "title": "2  My Workings",
+    "section": "2.6 ",
+    "text": "2.6 \n\\(\\textbf{Site Building in progress...}\\)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
     ]
