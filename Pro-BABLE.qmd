@@ -1,0 +1,21 @@
+# Pro-BABLE
+
+## Spread of Rumours
+In a small town of n people a person passes a titbit
+of information to another person. A rumour is now launched with each recipient of the information passing it on to a randomly chosen individual. What
+is the probability that the rumour is told r times $\textbf{without}$ 
+ 
+(a) returning to the originator,
+ 
+(b) being repeated to anyone.
+ 
+$\textbf{Generalisation}$: redo the calculations if
+each person tells the rumour to m randomly selected people
+
+## Increasing Seuence of Events
+
+
+## Dice Game
+
+ If three dice are thrown. What is the probability that one shows a
+ 6 given that no two show the same face? Repeat for n dice where 2 < n < 6
