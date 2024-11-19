@@ -12,81 +12,121 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "2  My Workings",
+    "title": "2  Sem I @ isibang",
     "section": "",
     "text": "2.1 Real Analysis\nI got some Real Analysis Notes for you all, by Prof. BV Rajaram Bhatt.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sem I @ isibang</span>"
     ]
   },
   {
     "objectID": "intro.html#fundamentals-of-computer-programming",
     "href": "intro.html#fundamentals-of-computer-programming",
-    "title": "2  My Workings",
+    "title": "2  Sem I @ isibang",
     "section": "2.2 Fundamentals of Computer Programming",
     "text": "2.2 Fundamentals of Computer Programming\nWe did this course under Prof. Jishnu Gupta Biswas Here are a few resorces :-\n\nOG Book for C Programming\nMy B.Math FCP course link",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sem I @ isibang</span>"
     ]
   },
   {
     "objectID": "intro.html#probability-theory",
     "href": "intro.html#probability-theory",
-    "title": "2  My Workings",
+    "title": "2  Sem I @ isibang",
     "section": "2.3 Probability Theory",
     "text": "2.3 Probability Theory\nOne of the favourite topics of my interest. I would like to share my views on it(COMING SOON !!). This course is being taught by Prof. Mathew Joseph.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sem I @ isibang</span>"
     ]
   },
   {
     "objectID": "intro.html#elementary-number-theory",
     "href": "intro.html#elementary-number-theory",
-    "title": "2  My Workings",
+    "title": "2  Sem I @ isibang",
     "section": "2.4 Elementary Number Theory",
     "text": "2.4 Elementary Number Theory\nHere are Assignments that were given to us as a Homework. The course was taken by Prof. Ramdin Mawia.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sem I @ isibang</span>"
     ]
   },
   {
     "objectID": "intro.html#linear-algebra",
     "href": "intro.html#linear-algebra",
-    "title": "2  My Workings",
+    "title": "2  Sem I @ isibang",
     "section": "2.5 Linear Algebra",
     "text": "2.5 Linear Algebra\nThis was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and stuff like Resonance Articles. It was taken by Prof. Anita Naolekar. Here is a link to the course page.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sem I @ isibang</span>"
     ]
   },
   {
     "objectID": "intro.html#section",
     "href": "intro.html#section",
-    "title": "2  My Workings",
+    "title": "2  Sem I @ isibang",
     "section": "2.6 ",
     "text": "2.6 \n\\(\\textbf{Site Building in progress...}\\)",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>My Workings</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sem I @ isibang</span>"
+    ]
+  },
+  {
+    "objectID": "Pro-BABLE.html",
+    "href": "Pro-BABLE.html",
+    "title": "3  Pro-BABLE",
+    "section": "",
+    "text": "3.1 Spread of Rumours\nIn a small town of n people a person passes a titbit of information to another person. A rumour is now launched with each recipient of the information passing it on to a randomly chosen individual. What is the probability that the rumour is told r times \\(\\textbf{without}\\)\n\\(\\textbf{Generalisation}\\): redo the calculations if each person tells the rumour to m randomly selected people",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pro-BABLE</span>"
+    ]
+  },
+  {
+    "objectID": "Pro-BABLE.html#spread-of-rumours",
+    "href": "Pro-BABLE.html#spread-of-rumours",
+    "title": "3  Pro-BABLE",
+    "section": "",
+    "text": "returning to the originator,\nbeing repeated to anyone.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pro-BABLE</span>"
+    ]
+  },
+  {
+    "objectID": "Pro-BABLE.html#increasing-seuence-of-events",
+    "href": "Pro-BABLE.html#increasing-seuence-of-events",
+    "title": "3  Pro-BABLE",
+    "section": "3.2 Increasing Seuence of Events",
+    "text": "3.2 Increasing Seuence of Events",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pro-BABLE</span>"
+    ]
+  },
+  {
+    "objectID": "Pro-BABLE.html#dice-game",
+    "href": "Pro-BABLE.html#dice-game",
+    "title": "3  Pro-BABLE",
+    "section": "3.3 Dice Game",
+    "text": "3.3 Dice Game\nIf three dice are thrown. What is the probability that one shows a 6 given that no two show the same face? Repeat for n dice where 2 &lt; n &lt; 6",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pro-BABLE</span>"
     ]
   },
   {
     "objectID": "acheivements.html",
     "href": "acheivements.html",
-    "title": "3  Acheivements",
+    "title": "4  Acheivements",
     "section": "",
     "text": "To be updated soon…",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Acheivements</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Acheivements</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "4  Summary",
+    "title": "5  Summary",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
+    "text": "\\(\\text{'There is always a probability of winning in life , no matter which stage you are at. Just believe in yourself and make the best choice.'}\\)",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
     ]
   }
 ]
