@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Embrace the Majesty",
     "section": "",
-    "text": "1 About\nThis is a website maintained by SUBHOJIT MAJI, who is a B.Math Undergraduate at Indian Statistical Institute, Bangalore Centre. My Special Interests are in Probability Theory. This site is created by me for updating about my daily life. Hope you all would enjoy browsing through it !!",
+    "text": "1 About\nThis is a website maintained by SUBHOJIT MAJI, who is a B.Math Undergraduate at Indian Statistical Institute, Bangalore Centre. My Special Interests are in Probability Theory. This site is created by me for updating about my daily life. Hope you all would enjoy browsing through it !!\nI am a member of the Cultural Committee of ISI Bangalore aswell as a member of the LIMIT 2024 Design Team .",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>About</span>"
     ]
@@ -94,7 +94,7 @@
     "href": "Pro-BABLE.html#increasing-seuence-of-events",
     "title": "3  Pro-BABLE",
     "section": "3.2 Increasing Seuence of Events",
-    "text": "3.2 Increasing Seuence of Events",
+    "text": "3.2 Increasing Seuence of Events\nSuppose \\(\\set{A_n \\vert n&gt;1}\\) is an increasing sequence of events such that , \\(A_n \\subseteq A_{n+1}\\) for each n . Let A = \\(\\bigcup_{n=i}^\\infty A_n\\) . Show that \\(P(A_n)\\) \\(\\rightarrow P(A)\\) as n \\(\\rightarrow \\infty\\) .",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pro-BABLE</span>"
     ]
@@ -104,29 +104,59 @@
     "href": "Pro-BABLE.html#dice-game",
     "title": "3  Pro-BABLE",
     "section": "3.3 Dice Game",
-    "text": "3.3 Dice Game\nIf three dice are thrown. What is the probability that one shows a 6 given that no two show the same face? Repeat for n dice where 2 &lt; n &lt; 6",
+    "text": "3.3 Dice Game\nIf three dice are thrown. What is the probability that one shows a 6 given that no two show the same face? Repeat for n dice where \\(2 &lt; n &lt; 6\\)",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pro-BABLE</span>"
     ]
   },
   {
+    "objectID": "AL-ZEBRA.html",
+    "href": "AL-ZEBRA.html",
+    "title": "4  ALL-ZEBRAS",
+    "section": "",
+    "text": "4.1",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ALL-ZEBRAS</span>"
+    ]
+  },
+  {
+    "objectID": "PUZZLES.html",
+    "href": "PUZZLES.html",
+    "title": "5  Puzzles for Young Minds",
+    "section": "",
+    "text": "5.1 Iterated Sine\nConsider the function \\(f_n(x)\\) defined for positive integers \\(n\\) and real numbers \\(x\\) by \\(f_n(x) = \\sin(\\sin(\\sin(\\cdots (\\sin x)))),\\) with \\(n\\) applications of the sine function. Thus \\(f_2(x) = \\sin(\\sin x), \\quad f_3(x) = \\sin(\\sin(\\sin x)),\\) and so on.\nLet \\(x \\in (0, \\pi/2)\\) be chosen, and let the sequence \\(f_1(x), f_2(x), f_3(x), \\dots, f_{100}(x),\\) be computed. It is found that for each fixed \\(x\\) and for all sufficiently large \\(n\\), we have \\(f_n(x) \\approx \\frac{\\sqrt{3}}{n}.\\) How may this phenomenon be explained?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Puzzles for Young Minds</span>"
+    ]
+  },
+  {
     "objectID": "acheivements.html",
     "href": "acheivements.html",
-    "title": "4  Acheivements",
+    "title": "6  Acheivements",
     "section": "",
     "text": "To be updated soon…",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Acheivements</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acheivements</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "5  Summary",
+    "title": "7  Summary",
     "section": "",
     "text": "\\(\\text{'There is always a probability of winning in life , no matter which stage you are at. Just believe in yourself and make the best choice.'}\\)",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "A Basic Introduction to Randomness by Rajeeva L Karandikar .",
+    "crumbs": [
+      "References"
     ]
   }
 ]
