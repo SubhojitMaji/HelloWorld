@@ -9,6 +9,8 @@ book:
     - index.qmd
     - intro.qmd
     - Pro-BABLE.qmd
+    - AL-ZEBRA.qmd
+    - PUZZLES.qmd
     - acheivements.qmd
     - summary.qmd
     - references.qmd
@@ -18,7 +20,6 @@ bibliography: references.bib
 format:
   html:
     theme: vapor
-  pdf:
-    documentclass: scrreprt
-  epub:
-    cover-image: cover.png
+#  pdf:
+#    documentclass: scrreprt
+#  image: cover.png
