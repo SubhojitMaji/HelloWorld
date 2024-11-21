@@ -124,7 +124,7 @@
     "href": "PUZZLES.html",
     "title": "5  Puzzles for Young Minds",
     "section": "",
-    "text": "5.1 Iterated Sine\nConsider the function \\(f_n(x)\\) defined for positive integers \\(n\\) and real numbers \\(x\\) by \\(f_n(x) = \\sin(\\sin(\\sin(\\cdots (\\sin x)))),\\) with \\(n\\) applications of the sine function. Thus \\(f_2(x) = \\sin(\\sin x), \\quad f_3(x) = \\sin(\\sin(\\sin x)),\\) and so on.\nLet \\(x \\in (0, \\pi/2)\\) be chosen, and let the sequence \\(f_1(x), f_2(x), f_3(x), \\dots, f_{100}(x),\\) be computed. It is found that for each fixed \\(x\\) and for all sufficiently large \\(n\\), we have \\(f_n(x) \\approx \\frac{\\sqrt{3}}{n}.\\) How may this phenomenon be explained?",
+    "text": "5.1 Iterated Sine\nConsider the function \\(f_n(x)\\) defined for positive integers \\(n\\) and real numbers \\(x\\) by \\(f_n(x) = \\sin(\\sin(\\sin(\\cdots (\\sin x)))),\\) with \\(n\\) applications of the sine function. Thus \\(f_2(x) = \\sin(\\sin x), \\quad f_3(x) = \\sin(\\sin(\\sin x)),\\) and so on.\nLet \\(x \\in (0, \\pi/2)\\) be chosen, and let the sequence \\(f_1(x), f_2(x), f_3(x), \\dots, f_{100}(x),\\) be computed. It is found that for each fixed \\(x\\) and for all sufficiently large \\(n\\), we have \\(f_n(x) \\approx \\sqrt{\\frac{3}{n}}.\\) How may this phenomenon be explained?",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Puzzles for Young Minds</span>"
     ]
