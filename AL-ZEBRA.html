@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -164,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"><span class="header-section-number">4.1</span> </a></li>
+  <li><a href="#oh-dear-you-are-so-great" id="toc-oh-dear-you-are-so-great" class="nav-link active" data-scroll-target="#oh-dear-you-are-so-great"><span class="header-section-number">4.1</span> Oh Dear!! You are so great !</a></li>
   </ul>
 </nav>
     </div>
@@ -190,8 +219,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="section" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="section"><span class="header-section-number">4.1</span> </h2>
+<section id="oh-dear-you-are-so-great" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="oh-dear-you-are-so-great"><span class="header-section-number">4.1</span> Oh Dear!! You are so great !</h2>
+Determine the value of the determinant of
+<span class="math display">\[\begin{vmatrix}\gcd (1,1)&amp;\gcd (1,2)&amp;\cdots &amp;\gcd (1,n)\\\gcd (2,1)&amp;\gcd (2,2)&amp;\cdots &amp;\gcd (2,n)\\\vdots&amp;\vdots&amp;\ddots&amp;\vdots\\\gcd (n,1)&amp;\gcd (n,2)&amp;\cdots &amp;\gcd (n,n)\end{vmatrix}\]</span>
+<p>$</p>
 
 
 </section>

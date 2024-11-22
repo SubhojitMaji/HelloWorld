@@ -124,7 +124,17 @@
     "href": "AL-ZEBRA.html",
     "title": "4  ALL-ZEBRAS",
     "section": "",
-    "text": "4.1",
+    "text": "4.1 Oh Dear!! You are so great !\n$",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ALL-ZEBRAS</span>"
+    ]
+  },
+  {
+    "objectID": "AL-ZEBRA.html#oh-dear-you-are-so-great",
+    "href": "AL-ZEBRA.html#oh-dear-you-are-so-great",
+    "title": "4  ALL-ZEBRAS",
+    "section": "",
+    "text": "Determine the value of the determinant of\n\\[\\begin{vmatrix}\\gcd (1,1)&\\gcd (1,2)&\\cdots &\\gcd (1,n)\\\\\\gcd (2,1)&\\gcd (2,2)&\\cdots &\\gcd (2,n)\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\\\gcd (n,1)&\\gcd (n,2)&\\cdots &\\gcd (n,n)\\end{vmatrix}\\]",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>ALL-ZEBRAS</span>"
     ]
