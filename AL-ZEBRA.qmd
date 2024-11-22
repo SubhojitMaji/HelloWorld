@@ -3,4 +3,4 @@
 ## Oh Dear!! You are so great !
 
 Determine the value of the determinant of
-\begin{vmatrix}\gcd (1,1)&\gcd (1,2)&\cdots &\gcd (1,n)\\\gcd (2,1)&\gcd (2,2)&\cdots &\gcd (2,n)\\\vdots&\vdots&\ddots&\vdots\\\gcd (n,1)&\gcd (n,2)&\cdots &\gcd (n,n)\end{vmatrix}\$
+\begin{vmatrix}\gcd (1,1)&\gcd (1,2)&\cdots &\gcd (1,n)\\\gcd (2,1)&\gcd (2,2)&\cdots &\gcd (2,n)\\\vdots&\vdots&\ddots&\vdots\\\gcd (n,1)&\gcd (n,2)&\cdots &\gcd (n,n)\end{vmatrix}\
