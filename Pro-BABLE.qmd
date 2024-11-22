@@ -23,4 +23,10 @@ each person tells the rumour to m randomly selected people
 
  If three dice are thrown. What is the probability that one shows a
  6 given that no two show the same face? Repeat for n dice where $2 < n < 6$
- 
+
+## How many couples will Survive ?
+
+Suppose there are $2n$ individuals who constitute $n$ married couples at a given initial date. We wish to consider the survivors at some given later date. Assume each individual has a probability $p$ of surviving until the later date (and possibly more!), independent of the others. Let $s$ denote the number of survivors at the later date and $c$ denote the number of surviving couples (in which both partners are alive). The problem is to derive an expression for $\mathbb{E}(c \mid s)$ and show that it does not depend on $p$. What about $\mathbb{E}(s \mid c)$? 
+
+$\href{https://www.ias.ac.in/article/fulltext/reso/011/12/0057-0059}{\textbf{{Text Solution}}}$
+

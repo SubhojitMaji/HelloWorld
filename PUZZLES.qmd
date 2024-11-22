@@ -15,3 +15,5 @@ $f_n(x) \approx \sqrt{\frac{3}{n}}.$
 How may this phenomenon be explained?
 
 $\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\textbf{Video Solution}}$
+
+
