@@ -193,7 +193,14 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#iterated-sine" id="toc-iterated-sine" class="nav-link active" data-scroll-target="#iterated-sine"><span class="header-section-number">5.1</span> Iterated Sine</a></li>
+  <li><a href="#iterated-sine" id="toc-iterated-sine" class="nav-link active" data-scroll-target="#iterated-sine"><span class="header-section-number">5.1</span> Iterated Sine</a>
+  <ul class="collapse">
+  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution"><span class="header-section-number">5.1.1</span> Solution</a></li>
+  </ul></li>
+  <li><a href="#maximums" id="toc-maximums" class="nav-link" data-scroll-target="#maximums"><span class="header-section-number">5.2</span> Maximums</a>
+  <ul class="collapse">
+  <li><a href="#solution-1" id="toc-solution-1" class="nav-link" data-scroll-target="#solution-1"><span class="header-section-number">5.2.1</span> Solution</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -223,9 +230,20 @@ window.Quarto = {
 <h2 data-number="5.1" class="anchored" data-anchor-id="iterated-sine"><span class="header-section-number">5.1</span> Iterated Sine</h2>
 <p>Consider the function <span class="math inline">\(f_n(x)\)</span> defined for positive integers <span class="math inline">\(n\)</span> and real numbers <span class="math inline">\(x\)</span> by <span class="math inline">\(f_n(x) = \sin(\sin(\sin(\cdots (\sin x)))),\)</span> with <span class="math inline">\(n\)</span> applications of the sine function. Thus <span class="math inline">\(f_2(x) = \sin(\sin x), \quad f_3(x) = \sin(\sin(\sin x)),\)</span> and so on.</p>
 <p>Let <span class="math inline">\(x \in (0, \pi/2)\)</span> be chosen, and let the sequence <span class="math inline">\(f_1(x), f_2(x), f_3(x), \dots, f_{100}(x),\)</span> be computed. It is found that for each fixed <span class="math inline">\(x\)</span> and for all sufficiently large <span class="math inline">\(n\)</span>, we have <span class="math inline">\(f_n(x) \approx \sqrt{\frac{3}{n}}.\)</span> How may this phenomenon be explained?</p>
+<section id="solution" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="solution"><span class="header-section-number">5.1.1</span> Solution</h3>
 <p><span class="math inline">\(\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\textbf{Video Solution}}\)</span></p>
+</section>
+</section>
+<section id="maximums" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="maximums"><span class="header-section-number">5.2</span> Maximums</h2>
+<p>Assume the quartic polynomial <span class="math inline">\(x^4 - ax^3 + bx^2 - ax + d = 0\)</span> has four real roots namely, <span class="math inline">\(\frac{1}{2} \leq x_1, x_2, x_3, x_4 \leq 2\)</span>. Find the maximum possible value of <span class="math inline">\(\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.\)</span></p>
+<section id="solution-1" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="solution-1"><span class="header-section-number">5.2.1</span> Solution</h3>
+<p><span class="math inline">\(\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\textbf{Video Solution}}\)</span></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

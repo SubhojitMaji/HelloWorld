@@ -144,7 +144,27 @@
     "href": "PUZZLES.html",
     "title": "5  Puzzles for Young Minds",
     "section": "",
-    "text": "5.1 Iterated Sine\nConsider the function \\(f_n(x)\\) defined for positive integers \\(n\\) and real numbers \\(x\\) by \\(f_n(x) = \\sin(\\sin(\\sin(\\cdots (\\sin x)))),\\) with \\(n\\) applications of the sine function. Thus \\(f_2(x) = \\sin(\\sin x), \\quad f_3(x) = \\sin(\\sin(\\sin x)),\\) and so on.\nLet \\(x \\in (0, \\pi/2)\\) be chosen, and let the sequence \\(f_1(x), f_2(x), f_3(x), \\dots, f_{100}(x),\\) be computed. It is found that for each fixed \\(x\\) and for all sufficiently large \\(n\\), we have \\(f_n(x) \\approx \\sqrt{\\frac{3}{n}}.\\) How may this phenomenon be explained?\n\\(\\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\\textbf{Video Solution}}\\)",
+    "text": "5.1 Iterated Sine\nConsider the function \\(f_n(x)\\) defined for positive integers \\(n\\) and real numbers \\(x\\) by \\(f_n(x) = \\sin(\\sin(\\sin(\\cdots (\\sin x)))),\\) with \\(n\\) applications of the sine function. Thus \\(f_2(x) = \\sin(\\sin x), \\quad f_3(x) = \\sin(\\sin(\\sin x)),\\) and so on.\nLet \\(x \\in (0, \\pi/2)\\) be chosen, and let the sequence \\(f_1(x), f_2(x), f_3(x), \\dots, f_{100}(x),\\) be computed. It is found that for each fixed \\(x\\) and for all sufficiently large \\(n\\), we have \\(f_n(x) \\approx \\sqrt{\\frac{3}{n}}.\\) How may this phenomenon be explained?",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Puzzles for Young Minds</span>"
+    ]
+  },
+  {
+    "objectID": "PUZZLES.html#iterated-sine",
+    "href": "PUZZLES.html#iterated-sine",
+    "title": "5  Puzzles for Young Minds",
+    "section": "",
+    "text": "5.1.1 Solution\n\\(\\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\\textbf{Video Solution}}\\)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Puzzles for Young Minds</span>"
+    ]
+  },
+  {
+    "objectID": "PUZZLES.html#maximums",
+    "href": "PUZZLES.html#maximums",
+    "title": "5  Puzzles for Young Minds",
+    "section": "5.2 Maximums",
+    "text": "5.2 Maximums\nAssume the quartic polynomial \\(x^4 - ax^3 + bx^2 - ax + d = 0\\) has four real roots namely, \\(\\frac{1}{2} \\leq x_1, x_2, x_3, x_4 \\leq 2\\). Find the maximum possible value of \\(\\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.\\)\n\n5.2.1 Solution\n\\(\\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\\textbf{Video Solution}}\\)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Puzzles for Young Minds</span>"
     ]
