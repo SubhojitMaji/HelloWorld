@@ -25,3 +25,9 @@ Assume the quartic polynomial
 $x^4 - ax^3 + bx^2 - ax + d = 0$
 has four real roots namely, $\frac{1}{2} \leq x_1, x_2, x_3, x_4 \leq 2$. Find the maximum possible value of 
 $\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.$
+
+### Solution 
+
+$\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\textbf{Video Solution}}$
+
+
