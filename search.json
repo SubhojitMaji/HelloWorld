@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "2  Sem I @ isibang",
     "section": "",
-    "text": "2.1 Real Analysis\nI got some Real Analysis Notes for you all, by Prof. BV Rajaram Bhatt.",
+    "text": "2.1 Real Analysis\nThese are some of the works, I did in my B.Math Journey.\nI got some Real Analysis Notes for you all, by Prof. BV Rajaram Bhatt.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sem I @ isibang</span>"
     ]
@@ -114,7 +114,7 @@
     "href": "Pro-BABLE.html#how-many-couples-will-survive",
     "title": "3  Pro-BABLE",
     "section": "3.4 How many couples will Survive ?",
-    "text": "3.4 How many couples will Survive ?\nSuppose there are \\(2n\\) individuals who constitute \\(n\\) married couples at a given initial date. We wish to consider the survivors at some given later date. Assume each individual has a probability \\(p\\) of surviving until the later date (and possibly more!), independent of the others. Let \\(s\\) denote the number of survivors at the later date and \\(c\\) denote the number of surviving couples (in which both partners are alive). The problem is to derive an expression for \\(\\mathbb{E}(c \\mid s)\\) and show that it does not depend on \\(p\\). What about \\(\\mathbb{E}(s \\mid c)\\)?\n\\(\\href{https://www.ias.ac.in/article/fulltext/reso/011/12/0057-0059}{\\textbf{{Text Solution}}}\\)",
+    "text": "3.4 How many couples will Survive ?\nSuppose there are \\(2n\\) individuals who constitute \\(n\\) married couples at a given initial date. We wish to consider the survivors at some given later date. Assume each individual has a probability \\(p\\) of surviving until the later date (and possibly more!), independent of the others. Let \\(s\\) denote the number of survivors at the later date and \\(c\\) denote the number of surviving couples (in which both partners are alive). The problem is to derive an expression for \\(\\mathbb{E}(c \\mid s)\\) and show that it does not depend on \\(p\\). What about \\(\\mathbb{E}(s \\mid c)\\)?",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pro-BABLE</span>"
     ]

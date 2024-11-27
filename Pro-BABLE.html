@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-43df0d6f53b733b42d37fa7808e17715.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-220798139bb244f900635492e7cbd59c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -242,7 +242,6 @@ window.Quarto = {
 <section id="how-many-couples-will-survive" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="how-many-couples-will-survive"><span class="header-section-number">3.4</span> How many couples will Survive ?</h2>
 <p>Suppose there are <span class="math inline">\(2n\)</span> individuals who constitute <span class="math inline">\(n\)</span> married couples at a given initial date. We wish to consider the survivors at some given later date. Assume each individual has a probability <span class="math inline">\(p\)</span> of surviving until the later date (and possibly more!), independent of the others. Let <span class="math inline">\(s\)</span> denote the number of survivors at the later date and <span class="math inline">\(c\)</span> denote the number of surviving couples (in which both partners are alive). The problem is to derive an expression for <span class="math inline">\(\mathbb{E}(c \mid s)\)</span> and show that it does not depend on <span class="math inline">\(p\)</span>. What about <span class="math inline">\(\mathbb{E}(s \mid c)\)</span>?</p>
-<p><span class="math inline">\(\href{https://www.ias.ac.in/article/fulltext/reso/011/12/0057-0059}{\textbf{{Text Solution}}}\)</span></p>
 
 
 </section>
@@ -330,8 +329,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -442,7 +439,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
