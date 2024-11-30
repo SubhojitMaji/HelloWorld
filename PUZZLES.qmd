@@ -1,5 +1,6 @@
 # Puzzles for Young Minds
 
+::: {.callout-note collapse="true"}
 ## Iterated Sine 
 
 Consider the function $f_n(x)$ defined for positive integers $n$ and real numbers $x$ by 
@@ -14,11 +15,17 @@ be computed. It is found that for each fixed $x$ and for all sufficiently large 
 $f_n(x) \approx \sqrt{\frac{3}{n}}.$
 How may this phenomenon be explained?
 
+
+::: {.callout-tip collapse="true"}
 ### Solution
 
 $\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\textbf{Video Solution}}$
 
+:::
 
+:::
+
+::: {.callout-note collapse="true"}
 ## Maximums
 
 Assume the quartic polynomial 
@@ -26,8 +33,11 @@ $x^4 - ax^3 + bx^2 - ax + d = 0$
 has four real roots namely, $\frac{1}{2} \leq x_1, x_2, x_3, x_4 \leq 2$. Find the maximum possible value of 
 $\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.$
 
+::: {.callout-tip collapse="true"}
 ### Solution 
 
 $\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\textbf{Video Solution}}$
+
+:::
 
 

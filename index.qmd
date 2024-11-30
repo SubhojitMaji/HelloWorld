@@ -1,4 +1,4 @@
-# About
+# About {.unnumbered}
 
 This is a website maintained by SUBHOJIT MAJI, who is a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/). My Special Interests are in Probability Theory. This site is created by me for updating about my daily life. Hope you all would enjoy browsing through it !!
 

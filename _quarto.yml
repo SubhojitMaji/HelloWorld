@@ -5,12 +5,26 @@ book:
   title: "Embrace the Majesty"
   author: "Subhojit Maji"
   date: "11/9/2024"
+  sidebar:
+    style: docked
+    background: secondary
+  page-footer: 
+    left: "Copyright 2024, Subhojit Maji" 
+    right: 
+      - icon: github
+        href: https://github.com/SubhojitMaji
+      - icon: instagram
+        href: https://www.instagram.com/7kiyotakaayanokoji/
+  search: 
+    location: sidebar
+    type: overlay
   chapters:
     - index.qmd
     - intro.qmd
     - Pro-BABLE.qmd
     - AL-ZEBRA.qmd
     - PUZZLES.qmd
+    - UDGRP 2024.qmd
     - acheivements.qmd
     - summary.qmd
     - references.qmd
@@ -19,9 +33,12 @@ bibliography: references.bib
 
 format:
   html:
-    theme:
-      light: zephyr
-      dark: superhero
+    grid:
+      sidebar-width: 350px
+      body-width: 800px
+      margin-width: 450px
+      gutter-width: 1.5rem
+    theme: cosmo
 #  pdf:
 #    documentclass: scrreprt
 #  image: cover.png
