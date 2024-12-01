@@ -15,6 +15,7 @@ book:
         href: https://github.com/SubhojitMaji
       - icon: instagram
         href: https://www.instagram.com/7kiyotakaayanokoji/
+  favicon: LOGO.png
   search: 
     location: sidebar
     type: overlay
