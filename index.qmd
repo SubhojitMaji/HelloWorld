@@ -1,8 +1,28 @@
+---
+title: "Want to Know Me ?" # optional (omitted in example screenshots); this title appears under your photo
+image: MyPic2.0.jpeg # a great spot for your professional headshot :) 
+toc: false # disable table of contents for this page (if applicable)
+about: 
+  template: trestles 
+  image-shape: round
+  image-width: 8em
+  links: # create buttons
+    - icon : linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+      target: _blank # opens link in a new browser tab
+    - icon : github
+      text: GitHub
+      href: https://github.com/SubhojitMaji
+      target: _blank 
+    - icon : envelope
+      text: Email
+      href: mailto:majisubhbojit198475@gmail.com
+---
+        
 # Want to know Me ? {.unnumbered}
+I am **SUBHOJIT MAJI**, a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/) . My Special Interests are in **Probability Theory** but in no way limited to it .
 
-This is a website maintained by SUBHOJIT MAJI, who is a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/). My Special Interests are in Probability Theory. This site is created by me for updating about my daily life. Hope you all would enjoy browsing through it !!
+I am currently a member of the **Cultural Committee** of [ISI Bangalore](https://www.isibang.ac.in/) for the session 2024-25 as well as a member of the **LIMIT** 2024-25 [Design Team](https://www.limitisi.in/resources/team/design). This site is created by me for sharing some great problems and theoretical stuffs with y'all.
 
-I am a member of the Cultural Committee of [ISI Bangalore](https://www.isibang.ac.in/) for the session 2024-25 as well as a member of the LIMIT 2024 [Design Team](https://www.limitisi.in/resources/team/design).
-
-You can always find me through [Mails](mailto:bmat2434@isibang.ac.in)
-
+Hope you all would enjoy browsing through it *:)* !!

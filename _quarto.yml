@@ -4,7 +4,7 @@ project:
 book:
   title: "Embrace the Majesty"
   author: "Subhojit Maji"
-  date: "11/9/2024"
+  date: "today"
   sidebar:
     style: docked
     background: secondary
@@ -15,6 +15,8 @@ book:
         href: https://github.com/SubhojitMaji
       - icon: instagram
         href: https://www.instagram.com/7kiyotakaayanokoji/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
   favicon: LOGO.png
   search: 
     location: sidebar
