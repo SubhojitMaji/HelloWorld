@@ -1,6 +1,10 @@
-# My Journey...
-:::{.callout-caution collapse="true"}
-## Let it be Hidden :)
+---
+title: "My Journey.."
+from: markdown+emoji
+---
+
+:::{.callout-note appearance="minimal" collapse="true"}
+## Let it be Hidden :relaxed:
 - Qualified for RMO twice(in the years 2020 and 2023).
 - Qualified JEE Mains in 2024(With 99.57 percentile).
 - Qualified JEE Advanced.

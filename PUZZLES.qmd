@@ -39,5 +39,31 @@ $\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.$
 $\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\textbf{Video Solution}}$
 
 :::
+:::
+:::{.callout-note collapse="true"}
+## Polynomial Approximations
 
+Prove that : 
+
+> The set of polynomial functions on $[a,b]$ is dense in $C([a,b])$ 
+
+:::{.callout-tip collapse="true"}
+### Hints
+
+The following problem can be rephrased as follows
+
+> For every continuous function $f(x)$ defined on $[a,b]$ , there is a nice polynomial $p(x)$ that approximates it ie, $\forall \epsilon > 0$ there exists p(x) such that  $|f(x) - p(x)| < \epsilon \; \forall x \in [a,b]$ , these polynomials are called as $\textbf{Bernstein Polynomials}$
+
+:::{.callout}
+## Some Facts
+
+- As there is a bijection , show that it holds for $C[(0,1)]$ and it holds true for $C[(a,b)]$
+- Let's denote the k-th Binomial Coefficient of $(1+x-x)^n$ as $B_{n,k}$ = $\binom{n}{k} x^k ({1-x})^{n-k}$ . 
+
+Then the n-th Bernstein Polynomial is $P_{f,n}(x)= \sum_{k=0}^{n} f\left(\frac{k}{n}\right) \cdot \binom{n}{k} \cdot x^k (1-x)^{n-k} = \sum_{k=0}^{n} f\left(\frac{k}{n}\right)B_{n,k}$
+
+:::
+
+:::
+:::
 

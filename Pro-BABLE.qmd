@@ -4,7 +4,7 @@
 ## Spread of Rumours
 In a small town of n people a person passes a titbit
 of information to another person. A rumour is now launched with each recipient of the information passing it on to a randomly chosen individual. What
-is the probability that the rumour is told r times $\textbf{without}$ 
+is the probability that the rumour is told r times $\textit{without}$ 
  
 (a) returning to the originator,
  
