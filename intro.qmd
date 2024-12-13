@@ -1,6 +1,13 @@
-# Course WebPage
-
-:::{.callout-note collapse="true"}
+---
+format: html
+subtitle: "The Legendary Course Works at a Legendary Research Institute(ISI Bang) ."
+title-block-banner: "#f0f3f5"
+title-block-banner-color: "black"
+toc: false
+---
+        
+# Course Web Page {.unnumbered}
+:::{.callout-important appearance="minimal" collapse="true"}
 ## Sem I @ isibang
 These are some of the works, I did in my B.Math Journey.
 
@@ -30,3 +37,4 @@ Here is a [link](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.ht
 ### 
 
 $\textbf{Site Building in progress...}$
+:::

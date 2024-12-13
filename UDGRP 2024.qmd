@@ -1,36 +1,41 @@
-# UDGRP(Undergraduate Directed Group Reading Project - 2k24)
+---
+format: html
+subtitle: "The secret handshake of information, passed down through generations."
+title-block-banner: "#f0f3f5"
+title-block-banner-color: "black"
+toc: false
+from: markdown+emoji
+---
 
-::: {.callout-tip collapse="true"}
+# Winter UDGRP 24 {.unnumbered}
+
+::: {.callout-note collapse="true"}
 ## Enumerative Combinatorics (By [Hrishik Koley](https://hrishik-koley.github.io))
 
-Here we were introduced to :-
+> Here we were introduced to :-
+>
+> - A bit of Group Theory(Mostly Geometric Group Theory)
+> - Generating Functions
+> - Graph Theory
+>   - Planar Graphs
+>   - Perfect Graphs 
+>   - Ramsey's Number and Theorem
 
-- Generating Functions 
-- Graph Theory
-  - Planar Graphs
-  - Perfect Graphs 
-  - Ramsey's Number and Theorem
-
-[We]( ## "Aayushman Mallick, Arkaprovo Das, and I") are now making a presentation on the Graph Theory.
-
-Resources and detailed Overview of the [Course](https://hrishik-koley.github.io/musings/enumerative_combinatorics/)
+ Resources and detailed Overview of the [Course](https://hrishik-koley.github.io/musings/enumerative_combinatorics/)
 :::
 
-::: {.callout-tip collapse="true"}
+::: {.callout-note collapse="true"}
 ## Introduction to Dynamical Systems(By [Aritrabha Majumdar](https://paulpseudoman.github.io/))
 
 It was a basic introductory course where we learnt about the following stuffs -
 
-- (Lazy Enough to write today !!)
+- Some Basic Linear Algebra 
+- Stability of Ordinary Differential Equations
+  - Linear Systems
+  - Non-Linear Systems(Local Theory)
+ 
 
 Also at the middle of the course I made a presentation on the [Spectral Theorem](https://drive.google.com/file/d/1bnqrIGg4x6yNU18mimoggvLsltV1oL1Q/view?usp=sharing) .
 
 Here are the notes [link](https://paulpseudoman.github.io/DSnotes.pdf) to the course.
 :::
-
-::: {.callout-tip collapse="true"}
-## Geometric Group Theory(By [Treanungkur Mal](https://maltreanungkur.github.io/web/) and [Rinkiny Ghatak]())
-
-- (Laziness Strikes Again)
-
-Here are the Notes for the [Course](https://maltreanungkur.github.io/web/)

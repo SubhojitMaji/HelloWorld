@@ -1,8 +1,13 @@
 ---
-title: "My Journey.."
+format: html
+subtitle: "A brief history of me, in all its chaotic glory."
+title-block-banner: "#f0f3f5"
+title-block-banner-color: "black"
+image: OM.png
+toc: false
 from: markdown+emoji
 ---
-
+# My-Journey {.unnumbered}
 :::{.callout-note appearance="minimal" collapse="true"}
 ## Let it be Hidden :relaxed:
 - Qualified for RMO twice(in the years 2020 and 2023).

@@ -127,6 +127,22 @@
 
 \KOMAoption{captions}{tableheading}
 \makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
 \@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
 \makeatother
 \makeatletter
@@ -191,42 +207,53 @@
 
 \title{Embrace the Majesty}
 \author{Subhojit Maji}
-\date{2024-11-09}
+\date{2024-12-09}
 
 \begin{document}
 \maketitle
 
-\renewcommand*\contentsname{Table of contents}
-{
-\hypersetup{linkcolor=}
-\setcounter{tocdepth}{2}
-\tableofcontents
-}
 
 \bookmarksetup{startatroot}
 
-\chapter{About}\label{about}
-
-This is a website maintained by SUBHOJIT MAJI, who is a B.Math
-Undergraduate at \href{https://www.isibang.ac.in/}{Indian Statistical
-Institute, Bangalore Centre}. My Special Interests are in Probability
-Theory. This site is created by me for updating about my daily life.
-Hope you all would enjoy browsing through it !!
+\chapter{Want to Know Me ?}\label{want-to-know-me}
 
 \bookmarksetup{startatroot}
 
-\chapter{Sem I @ isibang}\label{sem-i-isibang}
+\chapter*{Want to know Me ?}\label{want-to-know-me-1}
+\addcontentsline{toc}{chapter}{Want to know Me ?}
+
+\markboth{Want to know Me ?}{Want to know Me ?}
+
+I am \textbf{SUBHOJIT MAJI}, a B.Math Undergraduate at
+\href{https://www.isibang.ac.in/}{Indian Statistical Institute,
+Bangalore Centre} . My Special Interests are in \textbf{Probability
+Theory} but in no way limited to it .
+
+I am currently a member of the \textbf{Cultural Committee} of
+\href{https://www.isibang.ac.in/}{ISI Bangalore} for the session 2024-25
+as well as a member of the \textbf{LIMIT} 2024-25
+\href{https://www.limitisi.in/resources/team/design}{Design Team}. This
+site is created by me for sharing some great problems and theoretical
+stuffs with y'all.
+
+Hope you all would enjoy browsing through it \emph{:)} !!
+
+\bookmarksetup{startatroot}
+
+\chapter{Course WebPage}\label{course-webpage}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Sem I @ isibang}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white]
 
 These are some of the works, I did in my B.Math Journey.
 
-\section{Real Analysis}\label{real-analysis}
+\subsection{Real Analysis}\label{real-analysis}
 
 I got some
 \href{https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing}{Real
 Analysis} Notes for you all, by
 \href{https://www.isibang.ac.in/~bhat/}{Prof.~BV Rajaram Bhatt}.
 
-\section{Fundamentals of Computer
+\subsection{Fundamentals of Computer
 Programming}\label{fundamentals-of-computer-programming}
 
 We did this course under
@@ -246,13 +273,13 @@ Here are a few resorces :-
   course link}
 \end{enumerate}
 
-\section{Probability Theory}\label{probability-theory}
+\subsection{Probability Theory}\label{probability-theory}
 
 One of the favourite topics of my interest. I would like to share my
 views on it(COMING SOON !!). This course is being taught by
 \href{https://sites.google.com/view/mjoseph/home}{Prof.~Mathew Joseph}.
 
-\section{Elementary Number Theory}\label{elementary-number-theory}
+\subsection{Elementary Number Theory}\label{elementary-number-theory}
 
 Here are
 \href{https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing}{Assignments}
@@ -260,7 +287,7 @@ that were given to us as a Homework. The course was taken by
 \href{https://sites.google.com/view/ramdinmawia/home}{Prof.~Ramdin
 Mawia}.
 
-\section{Linear Algebra}\label{linear-algebra}
+\subsection{Linear Algebra}\label{linear-algebra}
 
 This was without a doubt the best course in the 1st semester. I got to
 learn a lot of new stuff and got myself acquainted with proof writing
@@ -270,7 +297,7 @@ Naolekar}. Here is a
 \href{https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html}{link}
 to the course page.
 
-\section{}\label{section}
+\subsection{}\label{section}
 
 \(\textbf{Site Building in progress...}\)
 
@@ -278,12 +305,12 @@ to the course page.
 
 \chapter{Pro-BABLE}\label{pro-bable}
 
-\section{Spread of Rumours}\label{spread-of-rumours}
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Spread of Rumours}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white]
 
 In a small town of n people a person passes a titbit of information to
 another person. A rumour is now launched with each recipient of the
 information passing it on to a randomly chosen individual. What is the
-probability that the rumour is told r times \(\textbf{without}\)
+probability that the rumour is told r times \(\textit{without}\)
 
 \begin{enumerate}
 \def\labelenumi{(\alph{enumi})}
@@ -293,29 +320,294 @@ probability that the rumour is told r times \(\textbf{without}\)
   being repeated to anyone.
 \end{enumerate}
 
-\(\textbf{Generalisation}\): redo the calculations if each person tells
-the rumour to m randomly selected people
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Generalisation}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
 
-\section{Increasing Seuence of
-Events}\label{increasing-seuence-of-events}
+Redo the calculations if each person tells the rumour to m randomly
+selected people .
 
-\section{Dice Game}\label{dice-game}
+\end{tcolorbox}
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Increasing Seuence of Events}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white]
+
+Suppose \(\set{A_n \vert n>1}\) is an increasing sequence of events such
+that , \(A_n \subseteq A_{n+1}\) for each n . Let A =
+\(\bigcup_{n=i}^\infty A_n\) . Show that \(P(A_n)\) \(\rightarrow P(A)\)
+as n \(\rightarrow \infty\) .
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Dice Game}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white]
 
 If three dice are thrown. What is the probability that one shows a 6
-given that no two show the same face? Repeat for n dice where 2
-\textless{} n \textless{} 6
+given that no two show the same face? Repeat for n dice where
+\(2 < n < 6\)
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{How many couples will Survive ?}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white]
+
+Suppose there are \(2n\) individuals who constitute \(n\) married
+couples at a given initial date. We wish to consider the survivors at
+some given later date. Assume each individual has a probability \(p\) of
+surviving until the later date (and possibly more!), independent of the
+others. Let \(s\) denote the number of survivors at the later date and
+\(c\) denote the number of surviving couples (in which both partners are
+alive). The problem is to derive an expression for
+\(\mathbb{E}(c \mid s)\) and show that it does not depend on \(p\). What
+about \(\mathbb{E}(s \mid c)\)?
+
+\end{tcolorbox}
 
 \bookmarksetup{startatroot}
 
-\chapter{Acheivements}\label{acheivements}
+\chapter{ALL-ZEBRAS}\label{all-zebras}
 
-To be updated soon\ldots{}
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{The Greatest Determinant}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+Determine the value of the determinant of
+
+\begin{vmatrix}\gcd (1,1)&\gcd (1,2)&\cdots &\gcd (1,n)\\\gcd (2,1)&\gcd (2,2)&\cdots &\gcd (2,n)\\\vdots&\vdots&\ddots&\vdots\\\gcd (n,1)&\gcd (n,2)&\cdots &\gcd (n,n)\end{vmatrix}
+
+\hfill\break
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Some Eigen Stuffs}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+Distinct Eigen-Values correspond to linearly independent
+Eigen-Vectors.(Prove it !!)
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Determinant and Matrices}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+Let us represent \(\; p(x)=|A+xB|\) , where A and B are \(2 \times 2\)
+matrices. Then find the matrix M such that
+\(p(x)=(detB)x^2+(detM)x+(detA)\)
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Series is good for Health}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+Let
+\(a_n = (\ln 3)^n \sum_{k=1}^{n} \frac{k^2}{k!(n-k)!}. \text{ Then the sum of the series } a_1 + a_2 + a_3 + ... \text{ to infinity, is equal to?}\)
+
+\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, colframe=quarto-callout-color-frame, breakable, bottomrule=.15mm, rightrule=.15mm, opacityback=0, left=2mm, leftrule=.75mm, colback=white, arc=.35mm]
+
+\vspace{-3mm}\textbf{Solution}\vspace{3mm}
+
+\href{https://youtu.be/S56NGhteqCE?si=j_5-WG_R9wq7LGlb}{Video Solution}
+
+\end{tcolorbox}
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Same-Same Yet Different!!}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+A is a \(n \times m\) matrix and B is a \(m \times n\) matrix . If
+\(|I_{n} - AB|\) is non-singular so is \(|I_{m} - BA|\)
+
+\end{tcolorbox}
+
+\bookmarksetup{startatroot}
+
+\chapter{Puzzles for Young Minds}\label{puzzles-for-young-minds}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Iterated Sine}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white]
+
+Consider the function \(f_n(x)\) defined for positive integers \(n\) and
+real numbers \(x\) by \(f_n(x) = \sin(\sin(\sin(\cdots (\sin x)))),\)
+with \(n\) applications of the sine function. Thus
+\(f_2(x) = \sin(\sin x), \quad f_3(x) = \sin(\sin(\sin x)),\) and so on.
+
+Let \(x \in (0, \pi/2)\) be chosen, and let the sequence
+\(f_1(x), f_2(x), f_3(x), \dots, f_{100}(x),\) be computed. It is found
+that for each fixed \(x\) and for all sufficiently large \(n\), we have
+\(f_n(x) \approx \sqrt{\frac{3}{n}}.\) How may this phenomenon be
+explained?
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Solution}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+\(\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\textbf{Video Solution}}\)
+
+\end{tcolorbox}
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Maximums}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white]
+
+Assume the quartic polynomial \(x^4 - ax^3 + bx^2 - ax + d = 0\) has
+four real roots namely, \(\frac{1}{2} \leq x_1, x_2, x_3, x_4 \leq 2\).
+Find the maximum possible value of
+\(\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.\)
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Solution}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+\(\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\textbf{Video Solution}}\)
+
+\end{tcolorbox}
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-note-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Polynomial Approximations}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-note-color!10!white]
+
+Prove that :
+
+\begin{quote}
+The set of polynomial functions on \([a,b]\) is dense in \(C([a,b])\)
+\end{quote}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Hints}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+The following problem can be rephrased as follows
+
+\begin{quote}
+For every continuous function \(f(x)\) defined on \([a,b]\) , there is a
+nice polynomial \(p(x)\) that approximates it ie,
+\(\forall \epsilon > 0\) there exists p(x) such that
+\(|f(x) - p(x)| < \epsilon \; \forall x \in [a,b]\) , these polynomials
+are called as \(\textbf{Bernstein Polynomials}\)
+\end{quote}
+
+\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, colframe=quarto-callout-color-frame, breakable, bottomrule=.15mm, rightrule=.15mm, opacityback=0, left=2mm, leftrule=.75mm, colback=white, arc=.35mm]
+
+\vspace{-3mm}\textbf{Some Facts}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item
+  As there is a bijection , show that it holds for \(C[(0,1)]\) and it
+  holds true for \(C[(a,b)]\)
+\item
+  Let's denote the k-th Binomial Coefficient of \((1+x-x)^n\) as
+  \(B_{n,k}\) = \(\binom{n}{k} x^k ({1-x})^{n-k}\) .
+\end{itemize}
+
+Then the n-th Bernstein Polynomial is
+\(P_{f,n}(x)= \sum_{k=0}^{n} f\left(\frac{k}{n}\right) \cdot \binom{n}{k} \cdot x^k (1-x)^{n-k} = \sum_{k=0}^{n} f\left(\frac{k}{n}\right)B_{n,k}\)
+
+\end{tcolorbox}
+
+\end{tcolorbox}
+
+\end{tcolorbox}
+
+\bookmarksetup{startatroot}
+
+\chapter{UDGRP(Undergraduate Directed Group Reading Project -
+2k24)}\label{udgrpundergraduate-directed-group-reading-project---2k24}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Enumerative Combinatorics (By
+\href{https://hrishik-koley.github.io}{Hrishik Koley})}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+Here we were introduced to :-
+
+\begin{itemize}
+\tightlist
+\item
+  Generating Functions
+\item
+  Graph Theory
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Planar Graphs
+  \item
+    Perfect Graphs
+  \item
+    Ramsey's Number and Theorem
+  \end{itemize}
+\end{itemize}
+
+\hyperref[ux5cux23]{We} are now making a presentation on the Graph
+Theory.
+
+Resources and detailed Overview of the
+\href{https://hrishik-koley.github.io/musings/enumerative_combinatorics/}{Course}
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Introduction to Dynamical Systems(By
+\href{https://paulpseudoman.github.io/}{Aritrabha Majumdar})}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+It was a basic introductory course where we learnt about the following
+stuffs -
+
+\begin{itemize}
+\tightlist
+\item
+  (Lazy Enough to write today !!)
+\end{itemize}
+
+Also at the middle of the course I made a presentation on the
+\href{https://drive.google.com/file/d/1bnqrIGg4x6yNU18mimoggvLsltV1oL1Q/view?usp=sharing}{Spectral
+Theorem} .
+
+Here are the notes
+\href{https://paulpseudoman.github.io/DSnotes.pdf}{link} to the course.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-tip-color-frame, coltitle=black, bottomtitle=1mm, toprule=.15mm, breakable, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Geometric Group Theory(By
+\href{https://maltreanungkur.github.io/web/}{Treanungkur Mal} and
+\href{}{Rinkiny Ghatak})}, rightrule=.15mm, titlerule=0mm, toptitle=1mm, opacityback=0, arc=.35mm, left=2mm, bottomrule=.15mm, leftrule=.75mm, opacitybacktitle=0.6, colback=white, colbacktitle=quarto-callout-tip-color!10!white]
+
+\begin{itemize}
+\tightlist
+\item
+  (Laziness Strikes Again)
+\end{itemize}
+
+Here are the Notes for the
+\href{https://maltreanungkur.github.io/web/}{Course}
+
+\bookmarksetup{startatroot}
+
+\chapter{My Journey..}\label{my-journey..}
+
+\begin{tcolorbox}[enhanced jigsaw, toprule=.15mm, colframe=quarto-callout-note-color-frame, breakable, bottomrule=.15mm, rightrule=.15mm, opacityback=0, left=2mm, leftrule=.75mm, colback=white, arc=.35mm]
+
+\vspace{-3mm}\textbf{Let it be Hidden :relaxed:}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item
+  Qualified for RMO twice(in the years 2020 and 2023).
+\item
+  Qualified JEE Mains in 2024(With 99.57 percentile).
+\item
+  Qualified JEE Advanced.
+\item
+  Qualified WBJEE in 2024(Rank 291).
+\item
+  Participated at OPhO(Online Physics Olympiad by Jaan Kalda).
+\item
+  Qualified ISI B.Math Entrance Exam.
+\item
+  Bronze Medalist at DIGO(Conducted by AoPS).
+\item
+  Recieved the Centre Topper Certificates for NSEP, NSEC and NSEA.
+\item
+  CBSE Boards Class X - 95\% and Class XII - 93\% .
+\item
+  Pursuing my UDGRP(Undergraduate Directed Group Reading Project) 2024
+  (NOT COMPLETED) \ldots{}
+\item
+  Got the Offer Letter from IISc Bangalore for Maths and Computing and
+  B.S Mathematics through JEE.
+\end{itemize}
+
+\end{tcolorbox}
 
 \bookmarksetup{startatroot}
 
 \chapter{Summary}\label{summary}
 
-\(\text{'There is always a probability of winning in life , no matter which stage you are at. Just believe in yourself and make the best choice.'}\)
+`There is always a probability of winning in life , no matter which
+stage you are at. Just believe in yourself and make the best choice.'
 
 \bookmarksetup{startatroot}
 
@@ -324,9 +616,22 @@ To be updated soon\ldots{}
 
 \markboth{References}{References}
 
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  A Basic Introduction to
+  \href{https://www.ias.ac.in/article/fulltext/reso/001/02/0055-0068}{Randomness}
+  by Rajeeva L Karandikar .
+\end{enumerate}
+
 \phantomsection\label{refs}
 \begin{CSLReferences}{0}{1}
 \end{CSLReferences}
+
+\end{tcolorbox}
+
+\end{tcolorbox}
 
 
 

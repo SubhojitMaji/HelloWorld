@@ -1,5 +1,5 @@
 ---
-title: "Want to Know Me ?" # optional (omitted in example screenshots); this title appears under your photo
+#Want to Know Me ?{.unnumbered} # optional (omitted in example screenshots); this title appears under your photo
 image: MyPic2.0.jpeg # a great spot for your professional headshot :) 
 toc: false # disable table of contents for this page (if applicable)
 about: 
@@ -17,9 +17,10 @@ about:
       target: _blank 
     - icon : envelope
       text: Email
-      href: mailto:majisubhbojit198475@gmail.com
+      href: mailto:majisubhojit301@gmail.com
+      target: _blank
 ---
-        
+
 # Want to know Me ? {.unnumbered}
 I am **SUBHOJIT MAJI**, a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/) . My Special Interests are in **Probability Theory** but in no way limited to it .
 

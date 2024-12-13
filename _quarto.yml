@@ -4,10 +4,11 @@ project:
 book:
   title: "Embrace the Majesty"
   author: "Subhojit Maji"
-  date: "today"
+  date: "last-modified"
   sidebar:
     style: docked
-    background: secondary
+    background: none
+    collapse-level: 1
   page-footer: 
     left: "Copyright 2024, Subhojit Maji" 
     right: 
@@ -17,7 +18,7 @@ book:
         href: https://www.instagram.com/7kiyotakaayanokoji/
       - icon: linkedin
         href: https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-  favicon: LOGO.png
+  favicon: LOGO-3.png
   search: 
     location: sidebar
     type: overlay
@@ -27,15 +28,28 @@ book:
     - Pro-BABLE.qmd
     - AL-ZEBRA.qmd
     - PUZZLES.qmd
-    - UDGRP 2024.qmd
     - acheivements.qmd
+    - part: "UDGRP's"
+      chapters:
+      - UDGRP 2024.qmd
     - summary.qmd
     - references.qmd
-
 bibliography: references.bib
 
 format:
   html:
+    toc: true
+    toc-depth: 1
+    toc-location: right
+    toc-expand: false
+    link-external-icon: true
+    link-external-newwindow: true
+    mainfont: 'Californian FB'
+    fontsize: '7'
+    standalone: true
+    smooth-scroll: true
+    embed-resources: false
+    linestretch: 1.5
     grid:
       sidebar-width: 350px
       body-width: 800px
@@ -43,5 +57,5 @@ format:
       gutter-width: 1.5rem
     theme: cosmo
 #  pdf:
-#    documentclass: scrreprt
+#      documentclass: scrreprt
 #  image: cover.png
