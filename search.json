@@ -6,77 +6,78 @@
     "section": "",
     "text": "Want to know Me ?\nI am SUBHOJIT MAJI, a B.Math Undergraduate at Indian Statistical Institute, Bangalore Centre . My Special Interests are in Probability Theory but in no way limited to it .\nI am currently a member of the Cultural Committee of ISI Bangalore for the session 2024-25 as well as a member of the LIMIT 2024-25 Design Team. This site is created by me for sharing some great problems and theoretical stuffs with y’all.\nHope you all would enjoy browsing through it :) !!",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Want to Know Me ?</span>"
+      "Want to know Me ?"
     ]
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "2  Course WebPage",
+    "title": "Course Web Page",
     "section": "",
-    "text": "Sem I @ isibang\n\n\n\n\n\nThese are some of the works, I did in my B.Math Journey.\n\n2.0.1 Real Analysis\nI got some Real Analysis Notes for you all, by Prof. BV Rajaram Bhatt.\n\n\n2.0.2 Fundamentals of Computer Programming\nWe did this course under Prof. Jishnu Gupta Biswas Here are a few resorces :-\n\nOG Book for C Programming\nMy B.Math FCP course link\n\n\n\n2.0.3 Probability Theory\nOne of the favourite topics of my interest. I would like to share my views on it(COMING SOON !!). This course is being taught by Prof. Mathew Joseph.\n\n\n2.0.4 Elementary Number Theory\nHere are Assignments that were given to us as a Homework. The course was taken by Prof. Ramdin Mawia.\n\n\n2.0.5 Linear Algebra\nThis was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and stuff like Resonance Articles. It was taken by Prof. Anita Naolekar. Here is a link to the course page.\n\n\n2.0.6 \n\\(\\textbf{Site Building in progress...}\\)",
+    "text": "Sem I @ isibang\n\n\n\n\n\nThese are some of the works, I did in my B.Math Journey.\n\nReal Analysis\nI got some Real Analysis Notes for you all, by Prof. BV Rajaram Bhatt.\n\n\nFundamentals of Computer Programming\nWe did this course under Prof. Jishnu Gupta Biswas Here are a few resorces :-\n\nOG Book for C Programming\nMy B.Math FCP course link\n\n\n\nProbability Theory\nOne of the favourite topics of my interest. I would like to share my views on it(COMING SOON !!). This course is being taught by Prof. Mathew Joseph.\n\n\nElementary Number Theory\nHere are Assignments that were given to us as a Homework. The course was taken by Prof. Ramdin Mawia.\n\n\nLinear Algebra\nThis was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and stuff like Resonance Articles. It was taken by Prof. Anita Naolekar. Here is a link to the course page.\n\n\n\n\\(\\textbf{Site Building in progress...}\\)",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Course WebPage</span>"
+      "Course Web Page"
     ]
   },
   {
     "objectID": "Pro-BABLE.html",
     "href": "Pro-BABLE.html",
-    "title": "3  Pro-BABLE",
+    "title": "Pro-Bable",
     "section": "",
     "text": "Spread of Rumours\n\n\n\n\n\nIn a small town of n people a person passes a titbit of information to another person. A rumour is now launched with each recipient of the information passing it on to a randomly chosen individual. What is the probability that the rumour is told r times \\(\\textit{without}\\)\n\nreturning to the originator,\nbeing repeated to anyone.\n\n\n\n\n\n\n\nGeneralisation\n\n\n\n\n\nRedo the calculations if each person tells the rumour to m randomly selected people .\n\n\n\n\n\n\n\n\n\n\n\n\nIncreasing Seuence of Events\n\n\n\n\n\nSuppose \\(\\set{A_n \\vert n&gt;1}\\) is an increasing sequence of events such that , \\(A_n \\subseteq A_{n+1}\\) for each n . Let A = \\(\\bigcup_{n=i}^\\infty A_n\\) . Show that \\(P(A_n)\\) \\(\\rightarrow P(A)\\) as n \\(\\rightarrow \\infty\\) .\n\n\n\n\n\n\n\n\n\nDice Game\n\n\n\n\n\nIf three dice are thrown. What is the probability that one shows a 6 given that no two show the same face? Repeat for n dice where \\(2 &lt; n &lt; 6\\)\n\n\n\n\n\n\n\n\n\nHow many couples will Survive ?\n\n\n\n\n\nSuppose there are \\(2n\\) individuals who constitute \\(n\\) married couples at a given initial date. We wish to consider the survivors at some given later date. Assume each individual has a probability \\(p\\) of surviving until the later date (and possibly more!), independent of the others. Let \\(s\\) denote the number of survivors at the later date and \\(c\\) denote the number of surviving couples (in which both partners are alive). The problem is to derive an expression for \\(\\mathbb{E}(c \\mid s)\\) and show that it does not depend on \\(p\\). What about \\(\\mathbb{E}(s \\mid c)\\)?",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Pro-BABLE</span>"
+      "Pro-Bable"
     ]
   },
   {
     "objectID": "AL-ZEBRA.html",
     "href": "AL-ZEBRA.html",
-    "title": "4  ALL-ZEBRAS",
+    "title": "ALL-ZEBRAS",
     "section": "",
-    "text": "The Greatest Determinant\n\n\n\nDetermine the value of the determinant of\n\\[\\begin{vmatrix}\\gcd (1,1)&\\gcd (1,2)&\\cdots &\\gcd (1,n)\\\\\\gcd (2,1)&\\gcd (2,2)&\\cdots &\\gcd (2,n)\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\\\gcd (n,1)&\\gcd (n,2)&\\cdots &\\gcd (n,n)\\end{vmatrix}\\]\n\n\n\n\n\n\n\n\n\n\nSome Eigen Stuffs\n\n\n\nDistinct Eigen-Values correspond to linearly independent Eigen-Vectors.(Prove it !!)\n\n\n\n\n\n\n\n\nDeterminant and Matrices\n\n\n\nLet us represent \\(\\; p(x)=|A+xB|\\) , where A and B are \\(2 \\times 2\\) matrices. Then find the matrix M such that \\(p(x)=(detB)x^2+(detM)x+(detA)\\)\n\n\n\n\n\n\n\n\nSeries is good for Health\n\n\n\nLet \\(a_n = (\\ln 3)^n \\sum_{k=1}^{n} \\frac{k^2}{k!(n-k)!}. \\text{ Then the sum of the series } a_1 + a_2 + a_3 + ... \\text{ to infinity, is equal to?}\\)\n\n\n\n\n\n\nSolution\n\n\n\n\n\nVideo Solution\n\n\n\n\n\n\n\n\n\n\n\nSame-Same Yet Different!!\n\n\n\nA is a \\(n \\times m\\) matrix and B is a \\(m \\times n\\) matrix . If \\(|I_{n} - AB|\\) is non-singular so is \\(|I_{m} - BA|\\)",
+    "text": "The Most Common Determinant\n\n\n\nDetermine the value of the determinant of\n\\[\\begin{vmatrix}\\gcd (1,1)&\\gcd (1,2)&\\cdots &\\gcd (1,n)\\\\\\gcd (2,1)&\\gcd (2,2)&\\cdots &\\gcd (2,n)\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\\\gcd (n,1)&\\gcd (n,2)&\\cdots &\\gcd (n,n)\\end{vmatrix}\\]\n\n\n\n\n\n\n\n\n\n\nSome Eigen Stuffs\n\n\n\nDistinct Eigen-Values correspond to linearly independent Eigen-Vectors.(Prove it !!)\n\n\n\n\n\n\n\n\nSeries is good for Health\n\n\n\nLet \\(a_n = (\\ln 3)^n \\sum_{k=1}^{n} \\frac{k^2}{k!(n-k)!}\\) . Then the sum of the series \\(a_1 + a_2 + a_3 + ... \\to \\infty\\) , is equal to?\n\n\n\n\n\n\nSolution\n\n\n\n\n\nVideo Solution\n\n\n\n\n\n\n\n\n\n\n\nSame-Same Yet Different!!\n\n\n\nA is a \\(n \\times m\\) matrix and B is a \\(m \\times n\\) matrix . If \\(|I_{n} - AB|\\) is non-singular so is \\(|I_{m} - BA|\\)\n\n\n\n\n\n\n\n\nINMO 2024\n\n\n\nFor each positive integer \\(n \\ge 3\\), define \\(A_n\\) and \\(B_n\\) as \\(A_n = \\sqrt{n^2 + 1} + \\sqrt{n^2 + 3} + \\cdots + \\sqrt{n^2+2n-1}\\) , \\(B_n = \\sqrt{n^2 + 2} + \\sqrt{n^2 + 4} + \\cdots + \\sqrt{n^2 + 2n}.\\) Determine all positive integers \\(n\\ge 3\\) for which \\(\\lfloor A_n \\rfloor = \\lfloor B_n \\rfloor\\).\n\n\n\n\n\n\nNote\n\n\n\n\n\nFor any real number \\(x\\), \\(\\lfloor x\\rfloor\\) denotes the largest integer \\(N\\le x\\).",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>ALL-ZEBRAS</span>"
+      "ALL-ZEBRAS"
     ]
   },
   {
     "objectID": "PUZZLES.html",
     "href": "PUZZLES.html",
-    "title": "5  Puzzles for Young Minds",
+    "title": "Puzzles for our Young Minds",
     "section": "",
-    "text": "Iterated Sine\n\n\n\n\n\nConsider the function \\(f_n(x)\\) defined for positive integers \\(n\\) and real numbers \\(x\\) by \\(f_n(x) = \\sin(\\sin(\\sin(\\cdots (\\sin x)))),\\) with \\(n\\) applications of the sine function. Thus \\(f_2(x) = \\sin(\\sin x), \\quad f_3(x) = \\sin(\\sin(\\sin x)),\\) and so on.\nLet \\(x \\in (0, \\pi/2)\\) be chosen, and let the sequence \\(f_1(x), f_2(x), f_3(x), \\dots, f_{100}(x),\\) be computed. It is found that for each fixed \\(x\\) and for all sufficiently large \\(n\\), we have \\(f_n(x) \\approx \\sqrt{\\frac{3}{n}}.\\) How may this phenomenon be explained?\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\\textbf{Video Solution}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\nMaximums\n\n\n\n\n\nAssume the quartic polynomial \\(x^4 - ax^3 + bx^2 - ax + d = 0\\) has four real roots namely, \\(\\frac{1}{2} \\leq x_1, x_2, x_3, x_4 \\leq 2\\). Find the maximum possible value of \\(\\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.\\)\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\\textbf{Video Solution}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\nPolynomial Approximations\n\n\n\n\n\nProve that :\n\nThe set of polynomial functions on \\([a,b]\\) is dense in \\(C([a,b])\\)\n\n\n\n\n\n\n\nHints\n\n\n\n\n\nThe following problem can be rephrased as follows\n\nFor every continuous function \\(f(x)\\) defined on \\([a,b]\\) , there is a nice polynomial \\(p(x)\\) that approximates it ie, \\(\\forall \\epsilon &gt; 0\\) there exists p(x) such that \\(|f(x) - p(x)| &lt; \\epsilon \\; \\forall x \\in [a,b]\\) , these polynomials are called as \\(\\textbf{Bernstein Polynomials}\\)\n\n\n\n\n\n\n\nSome Facts\n\n\n\n\nAs there is a bijection , show that it holds for \\(C[(0,1)]\\) and it holds true for \\(C[(a,b)]\\)\nLet’s denote the k-th Binomial Coefficient of \\((1+x-x)^n\\) as \\(B_{n,k}\\) = \\(\\binom{n}{k} x^k ({1-x})^{n-k}\\) .\n\nThen the n-th Bernstein Polynomial is \\(P_{f,n}(x)= \\sum_{k=0}^{n} f\\left(\\frac{k}{n}\\right) \\cdot \\binom{n}{k} \\cdot x^k (1-x)^{n-k} = \\sum_{k=0}^{n} f\\left(\\frac{k}{n}\\right)B_{n,k}\\)",
+    "text": "Iterated Sine\n\n\n\n\n\nConsider the function \\(f_n(x)\\) defined for positive integers \\(n\\) and real numbers \\(x\\) by \\(f_n(x) = \\sin(\\sin(\\sin(\\cdots (\\sin x)))),\\) with \\(n\\) applications of the sine function. Thus \\(f_2(x) = \\sin(\\sin x), \\quad f_3(x) = \\sin(\\sin(\\sin x)),\\) and so on.\nLet \\(x \\in (0, \\pi/2)\\) be chosen, and let the sequence \\(f_1(x), f_2(x), f_3(x), \\dots, f_{100}(x),\\) be computed. It is found that for each fixed \\(x\\) and for all sufficiently large \\(n\\), we have \\(f_n(x) \\approx \\sqrt{\\frac{3}{n}}.\\) How may this phenomenon be explained?\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\\textbf{Video Solution}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\nMaximums\n\n\n\n\n\nAssume the quartic polynomial \\(x^4 - ax^3 + bx^2 - ax + d = 0\\) has four real roots namely, \\(\\frac{1}{2} \\leq x_1, x_2, x_3, x_4 \\leq 2\\). Find the maximum possible value of \\(\\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.\\)\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\\textbf{Video Solution}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\nPolynomial Approximations\n\n\n\n\n\nProve that :\n\nThe set of polynomial functions on \\([a,b]\\) is dense in \\(C([a,b])\\)\n\n\n\n\n\n\n\nHints\n\n\n\n\n\nThe following problem can be rephrased as follows\n\nFor every continuous function \\(f(x)\\) defined on \\([a,b]\\) , there is a nice polynomial \\(p(x)\\) that approximates it ie, \\(\\forall \\epsilon &gt; 0\\) there exists p(x) such that \\(|f(x) - p(x)| &lt; \\epsilon \\; \\forall x \\in [a,b]\\) , these polynomials are called as \\(\\textbf{Bernstein Polynomials}\\)\n\n\n\n\n\n\n\nSome Facts\n\n\n\n\nAs there is a bijection , show that it holds for \\(C[(0,1)]\\) and it holds true for \\(C[(a,b)]\\)\nLet’s denote the k-th Binomial Coefficient of \\((1+x-x)^n\\) as \\(B_{n,k}\\) = \\(\\binom{n}{k} x^k ({1-x})^{n-k}\\) .\n\nThen the n-th Bernstein Polynomial is \\(P_{f,n}(x)\\) = \\(\\sum_{k=0}^{n} f\\left(\\frac{k}{n}\\right)B_{n,k}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmallest Set of integers\n\n\n\n\n\nLet \\(S\\) be the smallest set of positive integers such that\n\n\\(2\\) is in \\(S,\\)\n\\(n\\) is in \\(S\\) whenever \\(n^2\\) is in \\(S,\\) and\n\\((n+5)^2\\) is in \\(S\\) whenever \\(n\\) is in \\(S.\\)\n\nWhich positive integers are not in \\(S?\\)\n\n\n\n\n\n\nText Solution\n\n\n\n\n\nThe only positive integers not in \\(S\\) are \\(1\\) and the set of numbers divisible by \\(5.\\)\nA lemma to start with: if \\(n\\in S,\\) then \\(n+5k\\in S\\) for all \\(k\\in\\mathbb{N}\\) We get then by the steps \\(n\\to (n+5)^2\\to n+5,\\) repeated as many times as needed.\nBased on that lemma, we make cases in the argument for each residue class mod \\(5.\\) We see right away that if we don’t already have a multiple of \\(5,\\) we’re never going to get one. Beyond that, to show the claim stated above, we must show that \\(2,3,4,\\) and \\(6\\) must be in \\(S.\\) We already have \\(2\\in S\\) as given. We have the chain \\(2\\to 49\\to 54^2.\\) Note that \\(54^2\\equiv 1\\pmod{5},\\) which gives us all larger numbers that \\(\\equiv 1\\pmod{5}.\\) One such larger number is \\(2^{16}=256^2.\\) That gives us \\(256^2\\to 256 \\to 16\\to 4.\\) From \\(4\\) we have \\(4\\to 9\\to 3.\\) From \\(16\\) we can get to \\(16+5\\cdot 4=36,\\) and then \\(36\\to 6.\\) Hence we have all of \\(2,3,4,\\) and \\(6\\) in \\(S\\) and \\(S\\) must be as claimed.\nWe do note that the only way to go from a larger number to a smaller number is to go from \\(n^2\\) to \\(n.\\) But \\(1^2=1,\\) so there is no way to get \\(1\\) from a larger number.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Puzzles for Young Minds</span>"
-    ]
-  },
-  {
-    "objectID": "UDGRP 2024.html",
-    "href": "UDGRP 2024.html",
-    "title": "6  UDGRP(Undergraduate Directed Group Reading Project - 2k24)",
-    "section": "",
-    "text": "Enumerative Combinatorics (By Hrishik Koley)\n\n\n\n\n\nHere we were introduced to :-\n\nGenerating Functions\nGraph Theory\n\nPlanar Graphs\nPerfect Graphs\nRamsey’s Number and Theorem\n\n\nWe are now making a presentation on the Graph Theory.\nResources and detailed Overview of the Course\n\n\n\n\n\n\n\n\n\nIntroduction to Dynamical Systems(By Aritrabha Majumdar)\n\n\n\n\n\nIt was a basic introductory course where we learnt about the following stuffs -\n\n(Lazy Enough to write today !!)\n\nAlso at the middle of the course I made a presentation on the Spectral Theorem .\nHere are the notes link to the course.\n\n\n\n\n\n\n\n\n\nGeometric Group Theory(By Treanungkur Mal and Rinkiny Ghatak)\n\n\n\n\n\n\n(Laziness Strikes Again)\n\nHere are the Notes for the Course",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>UDGRP(Undergraduate Directed Group Reading Project - 2k24)</span>"
+      "Puzzles for our Young Minds"
     ]
   },
   {
     "objectID": "acheivements.html",
     "href": "acheivements.html",
-    "title": "7  My Journey..",
+    "title": "My-Journey",
     "section": "",
     "text": "Let it be Hidden ☺️\n\n\n\n\n\n\nQualified for RMO twice(in the years 2020 and 2023).\nQualified JEE Mains in 2024(With 99.57 percentile).\nQualified JEE Advanced.\nQualified WBJEE in 2024(Rank 291).\nParticipated at OPhO(Online Physics Olympiad by Jaan Kalda).\nQualified ISI B.Math Entrance Exam.\nBronze Medalist at DIGO(Conducted by AoPS).\nRecieved the Centre Topper Certificates for NSEP, NSEC and NSEA.\nCBSE Boards Class X - 95% and Class XII - 93% .\nPursuing my UDGRP(Undergraduate Directed Group Reading Project) 2024 (NOT COMPLETED) …\nGot the Offer Letter from IISc Bangalore for Maths and Computing and B.S Mathematics through JEE.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>My Journey..</span>"
+      "My-Journey"
+    ]
+  },
+  {
+    "objectID": "UDGRP 2024.html",
+    "href": "UDGRP 2024.html",
+    "title": "Winter UDGRP 24",
+    "section": "",
+    "text": "Enumerative Combinatorics (By Hrishik Koley)\n\n\n\n\n\n\nHere we were introduced to :-\n\nA bit of Group Theory(Mostly Geometric Group Theory)\nGenerating Functions\nGraph Theory\n\nPlanar Graphs\nPerfect Graphs\nRamsey’s Number and Theorem\n\n\n\nResources and detailed Overview of the Course\n\n\n\n\n\n\n\n\n\nIntroduction to Dynamical Systems(By Aritrabha Majumdar)\n\n\n\n\n\nIt was a basic introductory course where we learnt about the following stuffs -\n\nSome Basic Linear Algebra\nStability of Ordinary Differential Equations\n\nLinear Systems\nNon-Linear Systems(Local Theory)\n\n\nAlso at the middle of the course I made a presentation on the Spectral Theorem .\nHere are the notes link to the course.",
+    "crumbs": [
+      "UDGRP's",
+      "Winter UDGRP 24"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "8  Summary",
+    "title": "Summary",
     "section": "",
-    "text": "‘There is always a probability of winning in life , no matter which stage you are at. Just believe in yourself and make the best choice.’",
+    "text": "‘There is always a probability of winning in life , no matter which stage you are at. Just believe in yourself and make the best choices.’",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Summary</span>"
+      "Summary"
     ]
   },
   {
