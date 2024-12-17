@@ -15,9 +15,9 @@ about:
       text: GitHub
       href: https://github.com/SubhojitMaji
       target: _blank 
-    - icon : envelope
+    - icon : envelope-paper-heart-fill
       text: Email
-      href: mailto:majisubhojit301@gmail.com
+      href: mailto:majisubhojit198475mail.com
       target: _blank
 ---
 

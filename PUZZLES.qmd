@@ -28,6 +28,10 @@ How may this phenomenon be explained?
 
 $\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\textbf{Video Solution}}$
 
+:::{.column-margin}
+#### Banach-Contraction Mapping
+Try checking out about Banach's-Contraction Mapping to get a better idea.
+:::
 :::
 
 :::
@@ -61,8 +65,8 @@ The following problem can be rephrased as follows
 
 > For every continuous function $f(x)$ defined on $[a,b]$ , there is a nice polynomial $p(x)$ that approximates it ie, $\forall \epsilon > 0$ there exists p(x) such that  $|f(x) - p(x)| < \epsilon \; \forall x \in [a,b]$ , these polynomials are called as $\textbf{Bernstein Polynomials}$
 
-:::{.callout}
-## Some Facts
+:::{.column-margin}
+#### Some Facts
 
 - As there is a bijection , show that it holds for $C[(0,1)]$ and it holds true for $C[(a,b)]$
 - Let's denote the k-th Binomial Coefficient of $(1+x-x)^n$ as $B_{n,k}$ = $\binom{n}{k} x^k ({1-x})^{n-k}$ . 
@@ -98,5 +102,12 @@ Based on that lemma, we make cases in the argument for each residue class mod $5
 
 We do note that the only way to go from a larger number to a smaller number is to go from $n^2$ to $n.$ But $1^2=1,$ so there is no way to get $1$ from a larger number.
 
+:::{.column-margin}
+#### Problem-Source
+It was PUTNAM problem as far as I could remeber.
+
+So please do try it before looking at the solution , it is too easy ...
+
+:::
 :::
 :::

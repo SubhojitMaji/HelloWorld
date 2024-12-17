@@ -6,18 +6,24 @@ book:
   author: "Subhojit Maji"
   date: "last-modified"
   sidebar:
+    title: "SUBHOJIT<span class='icon-line'></span>MAJI"
     style: docked
-    background: none
+    background: "#dad7eb"
     collapse-level: 1
   page-footer: 
-    left: "Copyright 2024, Subhojit Maji" 
+    left: 
+      - icon: c-circle
+        text: "Copyright 2024, Subhojit Maji" 
     right: 
       - icon: github
         href: https://github.com/SubhojitMaji
-      - icon: instagram
-        href: https://www.instagram.com/7kiyotakaayanokoji/
+        target: _blank
       - icon: linkedin
         href: https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+        target: _blank
+      - icon : envelope-paper-heart-fill
+        href: mailto:majisubhojit198475mail.com
+        target: _blank
   favicon: LOGO-3.png
   search: 
     location: sidebar
@@ -38,6 +44,7 @@ bibliography: references.bib
 
 format:
   html:
+    cover-image: OM.jpg
     toc: true
     toc-depth: 1
     toc-location: right
@@ -55,7 +62,7 @@ format:
       body-width: 800px
       margin-width: 450px
       gutter-width: 1.5rem
-    theme: cosmo
-#  pdf:
-#      documentclass: scrreprt
+    theme: aklight.scss
+  #pdf:
+  #    documentclass: scrreprt
 #  image: cover.png
