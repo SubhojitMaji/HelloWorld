@@ -20,22 +20,25 @@ from: markdown+emoji
 >   - Planar Graphs
 >   - Perfect Graphs 
 >   - Ramsey's Number and Theorem
+> - Lovaz-Locale Theorem
+> - Kuratowski's Theorem (It was a great presentation by Aayushman Mallick and Arkaprovo Das.)
 
- Resources and detailed Overview of the [Course](https://hrishik-koley.github.io/musings/enumerative_combinatorics/)
+Resources and detailed Overview of the [Course](https://hrishik-koley.github.io/musings/enumerative_combinatorics/)
 :::
 
 ::: {.callout-note collapse="true"}
 ## Introduction to Dynamical Systems(By [Aritrabha Majumdar](https://paulpseudoman.github.io/))
 
-It was a basic introductory course where we learnt about the following stuffs -
+> It was a basic introductory course where we learnt about the following stuffs -
+> 
+> - Some Basic Linear Algebra 
+> - Stability of Ordinary Differential Equations
+>   - Linear Systems
+>   - Non-Linear Systems(Local Theory)
+> - Picard's Method of Successive Approximation
+> - Maximal Interval of Existence 
 
-- Some Basic Linear Algebra 
-- Stability of Ordinary Differential Equations
-  - Linear Systems
-  - Non-Linear Systems(Local Theory)
- 
-
-Also at the middle of the course I made a presentation on the [Spectral Theorem](https://drive.google.com/file/d/1bnqrIGg4x6yNU18mimoggvLsltV1oL1Q/view?usp=sharing) .
+> Also at the middle of the course I made a presentation on the [Spectral Theorem](https://drive.google.com/file/d/1bnqrIGg4x6yNU18mimoggvLsltV1oL1Q/view?usp=sharing) .
 
 Here are the notes [link](https://paulpseudoman.github.io/DSnotes.pdf) to the course.
 :::

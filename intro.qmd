@@ -4,6 +4,7 @@ subtitle: "The Legendary Course Works at a Legendary Research Institute(ISI Bang
 title-block-banner: "#f0f3f5"
 title-block-banner-color: "black"
 toc: false
+target: _blank
 ---
         
 # Course Web Page {.unnumbered}
@@ -13,25 +14,25 @@ These are some of the works, I did in my B.Math Journey.
 
 
 ### Real Analysis I
-I got some [Real Analysis](https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing) Notes for you all, by [Prof. BV Rajaram Bhatt](https://www.isibang.ac.in/~bhat/).
+I got some [Real Analysis](https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing){.highlighted} Notes for you all, by [Prof. BV Rajaram Bhatt](https://www.isibang.ac.in/~bhat/){.highlighted}.
 
 ### Fundamentals of Computer Programming
 
-We did this course under [Prof. Jishnu Gupta Biswas](https://isi.irins.org/profile/13204)
+We did this course under [Prof. Jishnu Gupta Biswas](https://isi.irins.org/profile/13204){.highlighted}
 Here are a few resorces :-
 
-1. OG Book for [C Programming](https://drive.google.com/file/d/1JgIz5I723BBlrkGD4n0qE4n5U89LD3XY/view?usp=sharing)
-2. My B.Math [FCP course link](https://www.isibang.ac.in/~adean/infsys/database/Bmath/FCP.html)
+1. OG Book for [C Programming](https://drive.google.com/file/d/1JgIz5I723BBlrkGD4n0qE4n5U89LD3XY/view?usp=sharing){.highlighted}
+2. My B.Math [FCP course link](https://www.isibang.ac.in/~adean/infsys/database/Bmath/FCP.html){.highlighted}
 
 ### Probability I
-One of the favourite topics of my interest. This course is being taught by [Prof. Mathew Joseph](https://sites.google.com/view/mjoseph/home).
+One of the favourite topics of my interest. This course is being taught by [Prof. Mathew Joseph](https://sites.google.com/view/mjoseph/home){.highlighted}.
 
 ### Elementary Number Theory
-Here are [Assignments](https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing) that were given to us as a Homework. The course was taken by [Prof. Ramdin Mawia](https://sites.google.com/view/ramdinmawia/home).
+Here are [Assignments](https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing){.highlighted} that were given to us as a Homework. The course was taken by [Prof. Ramdin Mawia](https://sites.google.com/view/ramdinmawia/home){.highlighted}.
 
 ### Linear Algebra I
-This was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and weird stuffs like Resonance Articles. It was taken by [Prof. Anita Naolekar](https://www.isibang.ac.in/~statmath/homepage.html).
-Here is a [link](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html) to the course page.
+This was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and weird stuffs like Resonance Articles. It was taken by [Prof. Anita Naolekar](https://www.isibang.ac.in/~statmath/homepage.html){.highlighted}.
+Here is a [link](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html){.highlighted} to the course page.
 
 :::{.column-margin}
 #### Summary of things other than Course
@@ -41,7 +42,7 @@ It was my first time spending time outside parents restrictions (obviously took 
 
 Thank fully there were great seniors (A very big list...) to take care of us. 
 
-Participated in College Elections for the Cultural Committee , also used to handle the Social Media Accounts for [LIMIT](www.limitisi.in).
+Participated in College Elections for the Cultural Committee , also used to handle the Social Media Accounts for [LIMIT](www.limitisi.in){.highlighted}.
 
 Faced a lot of internal-conflicts but ended up all nicely.
 

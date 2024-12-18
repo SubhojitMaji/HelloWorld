@@ -44,14 +44,13 @@ bibliography: references.bib
 
 format:
   html:
-    cover-image: OM.jpg
+    cover-image: OM-2.png
     toc: true
     toc-depth: 1
     toc-location: right
     toc-expand: false
     link-external-icon: true
     link-external-newwindow: true
-    mainfont: 'Californian FB'
     fontsize: '7'
     standalone: true
     smooth-scroll: true

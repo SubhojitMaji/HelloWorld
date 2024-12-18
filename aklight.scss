@@ -1,9 +1,112 @@
 /*-- scss:defaults --*/
-$pink:      #D4006A;
-$primary:   $pink !default;
-$h2-font-size:          3rem !default;
-$headings-font-weight:  500 !default;
-$link-color: #e35701;
+
+// default colours
+
+$theme-light-back: #fafffe;
+$theme-light-link: #812306;
+$theme-light-text: #222222;
+$theme-dark-back: #1f2e32;
+$theme-dark-link: #aae4e6;
+$theme-dark-text: #ebe8e3;
+
+
+// default theme colours
+$body-bg: $theme-light-back;
+$body-color: $theme-light-text;
+$link-color: $theme-light-link;
+
+// import fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+$font-family-sans-serif: "Kurale", sans-serif;
+$presentation-heading-font: "Montserrat", serif;
+$presentation-font-size-root: 40px;
+$presentation-line-height: 1.6;
+
+/*-- scss:defaults --*/
+$background-body: #fafffe;
+$link-body: #3AA6B9;
+$text-body: #102c57;
+$background-header: #8e3e63;
+$text-header: #cda149;
+
+$background-code: #FFF5E4;
+$text-code: #43766C;
+$highlight-code: #CD5C08;
+
+$warning-box: #F85525;
+$important-box: #F05A7E;
+$note-box: #125B9A;
+$tip-box: #0B8494;
+
+
+$body-bg: $background-body;
+$body-color: $text-body;
+$headings-color: $text-body !default;
+$header-section-number: $text-body !default;
+$popover-header-color: $text-body !default;
+$toast-header-color: $text-body !default;
+$link-color: $link-body;
+
+$code-block-bg: $background-code;
+$code-annotation-higlight-color: $highlight-code;
+$code-block-color: $text-code;
+
+$code-color: $highlight-code;
+$code-bg: $background-code;
+
+$navbar-bg: $background-header;
+$navbar-fg: $text-header;
+
+$callout-color-warning: $warning-box;
+$callout-color-important-box: $important-box;
+$callout-color-note: $note-box;
+$callout-color-tip: $tip-box;
+
+
+/*-- scss:rules --*/
+
+// dark theme variant
+
+.dark-theme {
+  color: $theme-dark-text;
+  background-color: $theme-dark-back;
+  
+  // header text
+  
+  h1, h2, h3 {
+    color: $theme-dark-text;
+  }
+  
+  // link text
+  
+  a { 
+    color: $theme-dark-link;
+  }
+  
+  // slide background
+  
+  .slide-background-content {
+    background-color: $theme-dark-back;
+  }
+}
+
+// CSS class for highlighting light theme 
+
+.highlighted-light {
+  color: $theme-light-link;
+  font-weight: bold;
+}
+
+//CSS class for highlighting dark theme
+
+.highlighted-dark {
+  color: $theme-dark-link;
+  font-weight: bold;
+}
 
 /*-- scss:rules --*/
 .icon-line {
@@ -17,5 +120,12 @@ $link-color: #e35701;
     margin-bottom: -0.5px;
   }
   h1, h2, h3, h4, h5, h6 {
-    text-shadow: -1px -1px 0 rgba(32, 5, 236, 0.3);
+    text-shadow: -1px -1px 0 rgba(220, 219, 225, 0.3);
   }
+
+/*-- scss:rules --*/
+
+.highlighted {
+  color: $theme-light-link;
+  font-weight: bold;
+}
