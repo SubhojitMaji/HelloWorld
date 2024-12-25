@@ -1,30 +1,67 @@
 ---
-#Want to Know Me ?{.unnumbered} # optional (omitted in example screenshots); this title appears under your photo
-image: Dk Logo.png # a great spot for your professional headshot :) 
-toc: false # disable table of contents for this page (if applicable)
-about: 
-  template: trestles 
+format: 
+  html:
+    css: styles.css
+    page-layout: full
+    number-sections: false
+image: "Dk Logo.png"
+toc: false
+about:
+  template: solana
   image-shape: round
-  image-width: 8em
-  links: # create buttons
-    - icon : linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-      target: _blank # opens link in a new browser tab
-    - icon : github
-      text: GitHub
-      href: https://github.com/SubhojitMaji
-      target: _blank 
-    - icon : envelope-paper-heart-fill
-      text: Email
-      href: mailto:majisubhojit198475mail.com
+  image-width: 10em
+  links: 
+    - icon: linkedin
+      text: "Connect on LinkedIn"
+      href: "https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       target: _blank
+    - icon: github
+      text: "Explore My GitHub"
+      href: "https://github.com/SubhojitMaji"
+      target: _blank
+    - icon: envelope
+      text: "Drop Me an Email"
+      href: "mailto:majisubhojit198475mail.com"
+      target: _blank
+from: markdown+emoji
 ---
 
-# Want to know Me ? {.unnumbered}
-I am **SUBHOJIT MAJI**, a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/){.highlighted} . My Special Interests are in **Probability Theory** but in no way limited to it .
+::: {.content-container}
 
-I am currently a member of the **Cultural Committee** of [ISI Bangalore](https://www.isibang.ac.in/){.highlighted} for the session 2024-25 as well as a member of the **LIMIT** 2024-25 [Design Team](https://www.limitisi.in/resources/team/design){.highlighted} . This site is created by me for sharing some great problems and theoretical stuffs with y'all.
+# Welcome to MySpace:smiley: {.unnumbered}
+
+## Want to know Me? {.section-title}
+
+**"Exploring the beauty of Mathematics, Coding, and Creativity."**
+
+I am **SUBHOJIT MAJI**, a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/){.highlighted} . My Special Interests are in **Probability Theory** but in no way limited to it .
 
 Hope you all would enjoy browsing through it *:)* !!
 
+## 2k24 Activities {.section-title}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4 .highlight-card}
+### 🏆 Limit Design Team Member
+[Collaborating on creative projects that merge technical skills and design.]{.highlighted}
+:::
+
+::: {.g-col-12 .g-col-md-4 .highlight-card}
+### 👥 Cultural Committee Lead
+[Organizing engaging events to enrich student life at ISI Bangalore.]{.highlighted}
+:::
+
+::: {.g-col-12 .g-col-md-4 .highlight-card}
+### 💻 Passion for Problem-Solving
+Diving into coding challenges and exploring mathematical insights.
+:::
+
+:::
+
+:::
+
+::: {.footer-content}
+Made with ❤️ using [Quarto](https://quarto.org)  
+Last updated: December 2024
+:::

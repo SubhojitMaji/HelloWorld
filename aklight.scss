@@ -1,131 +1,271 @@
 /*-- scss:defaults --*/
 
-// default colours
-
-$theme-light-back: #fafffe;
-$theme-light-link: #812306;
-$theme-light-text: #222222;
-$theme-dark-back: #1f2e32;
-$theme-dark-link: #aae4e6;
-$theme-dark-text: #ebe8e3;
-
-
-// default theme colours
-$body-bg: $theme-light-back;
-$body-color: $theme-light-text;
-$link-color: $theme-light-link;
-
-// import fonts
-
+// Import our fonts for typography
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Kurale&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 
-$font-family-sans-serif: "Kurale", sans-serif;
-$presentation-heading-font: "Montserrat", serif;
-$presentation-font-size-root: 40px;
-$presentation-line-height: 1.6;
+// Theme Colors - Light Mode
+$theme-light-back: #fafffe;
+$theme-light-link: #812306;
+$theme-light-text: #222222;
 
-/*-- scss:defaults --*/
+// Theme Colors - Dark Mode
+$theme-dark-back: #1f2e32;
+$theme-dark-link: #aae4e6;
+$theme-dark-text: #ebe8e3;
+
+// Interface Colors with slightly adjusted tones for better contrast
 $background-body: #fafffe;
-$link-body: #3AA6B9;
-$text-body: #102c57;
 $background-header: #8e3e63;
-$text-header: #cda149;
-
 $background-code: #FFF5E4;
+
+$text-body: #102c57;
+$text-header: #cda149;
 $text-code: #43766C;
+
+$link-body: #3AA6B9;
 $highlight-code: #CD5C08;
 
+// Feedback Colors with increased vibrancy
 $warning-box: #F85525;
 $important-box: #F05A7E;
 $note-box: #125B9A;
 $tip-box: #0B8494;
 
+// Animation Variables
+$transition-speed-fast: 150ms;
+$transition-speed-medium: 300ms;
+$transition-speed-slow: 450ms;
+$transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
 
+// Interactive Elements
+$hover-lift: translateY(-2px);
+$active-press: translateY(1px);
+$hover-scale: scale(1.02);
+$focus-ring-color: rgba(58, 166, 185, 0.4);
+$hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+// Base Theme Settings
 $body-bg: $background-body;
 $body-color: $text-body;
+$link-color: $link-body;
+
+// Typography Settings with adjusted sizes for better readability
+$font-family-sans-serif: "Kurale", sans-serif;
+$presentation-heading-font: "Montserrat", serif;
+$presentation-font-size-root: 40px;
+$presentation-line-height: 1.6;
+
+// Component Colors
 $headings-color: $text-body !default;
 $header-section-number: $text-body !default;
 $popover-header-color: $text-body !default;
 $toast-header-color: $text-body !default;
-$link-color: $link-body;
 
+// Code Block Settings
 $code-block-bg: $background-code;
-$code-annotation-higlight-color: $highlight-code;
 $code-block-color: $text-code;
-
 $code-color: $highlight-code;
 $code-bg: $background-code;
+$code-annotation-higlight-color: $highlight-code;
 
+// Navigation Settings
 $navbar-bg: $background-header;
 $navbar-fg: $text-header;
 
+// Callout Settings
 $callout-color-warning: $warning-box;
 $callout-color-important-box: $important-box;
 $callout-color-note: $note-box;
 $callout-color-tip: $tip-box;
 
-
 /*-- scss:rules --*/
 
-// dark theme variant
+// Base Styles with smooth transitions
+body {
+  transition: background-color $transition-speed-medium $transition-timing,
+              color $transition-speed-medium $transition-timing;
+}
 
+// Enhanced Link Styles
+a {
+  position: relative;
+  text-decoration: none;
+  transition: color $transition-speed-fast $transition-timing,
+              transform $transition-speed-fast $transition-timing;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transition: transform $transition-speed-medium $transition-timing;
+    transform-origin: right;
+  }
+  
+  &:hover {
+    transform: $hover-lift;
+    
+    &::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+  
+  &:active {
+    transform: $active-press;
+  }
+  
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px $focus-ring-color;
+    border-radius: 2px;
+  }
+}
+
+// Enhanced Heading Styles
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  text-shadow: -1px -1px 0 rgba(220, 219, 225, 0.3);
+  transition: transform $transition-speed-medium $transition-timing,
+              text-shadow $transition-speed-medium $transition-timing;
+  
+  &:hover {
+    transform: $hover-lift;
+  }
+}
+
+// Interactive Code Blocks
+pre, code {
+  transition: background-color $transition-speed-medium $transition-timing,
+              color $transition-speed-medium $transition-timing,
+              transform $transition-speed-fast $transition-timing,
+              box-shadow $transition-speed-medium $transition-timing;
+  border-radius: 4px;
+  
+  &:hover {
+    transform: $hover-scale;
+    box-shadow: $hover-shadow;
+  }
+}
+
+// Enhanced Dark Theme
 .dark-theme {
   color: $theme-dark-text;
   background-color: $theme-dark-back;
-  
-  // header text
+  transition: all $transition-speed-medium $transition-timing;
   
   h1, h2, h3 {
     color: $theme-dark-text;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
   }
   
-  // link text
-  
-  a { 
+  a {
     color: $theme-dark-link;
+    
+    &:hover {
+      color: lighten($theme-dark-link, 15%);
+    }
   }
   
-  // slide background
-  
-  .slide-background-content {
-    background-color: $theme-dark-back;
+  pre, code {
+    background-color: darken($background-code, 60%);
+    color: lighten($text-code, 20%);
+    
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
   }
 }
 
-// CSS class for highlighting light theme 
-
-.highlighted-light {
-  color: $theme-light-link;
-  font-weight: bold;
+// Interactive Callouts
+.callout {
+  transition: transform $transition-speed-medium $transition-timing,
+              box-shadow $transition-speed-medium $transition-timing;
+  border-left-width: 4px;
+  border-left-style: solid;
+  
+  &:hover {
+    transform: $hover-scale;
+    box-shadow: $hover-shadow;
+  }
+  
+  &.warning { border-left-color: $warning-box; }
+  &.important { border-left-color: $important-box; }
+  &.note { border-left-color: $note-box; }
+  &.tip { border-left-color: $tip-box; }
 }
 
-//CSS class for highlighting dark theme
+// Enhanced Navigation
+.navbar {
+  transition: background-color $transition-speed-medium $transition-timing,
+              box-shadow $transition-speed-medium $transition-timing;
+  
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    position: relative;
+    transition: color $transition-speed-fast $transition-timing;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background-color: currentColor;
+      transition: width $transition-speed-medium $transition-timing,
+                  left $transition-speed-medium $transition-timing;
+    }
+    
+    &:hover::after {
+      width: 100%;
+      left: 0;
+    }
+  }
+}
 
-.highlighted-dark {
-  color: $theme-dark-link;
-  font-weight: bold;
+// Interactive Buttons
+button, .btn {
+  transition: transform $transition-speed-fast $transition-timing,
+              box-shadow $transition-speed-fast $transition-timing,
+              background-color $transition-speed-fast $transition-timing;
+  
+  &:hover {
+    transform: $hover-lift;
+    box-shadow: $hover-shadow;
+  }
+  
+  &:active {
+    transform: $active-press;
+    box-shadow: none;
+  }
+  
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px $focus-ring-color;
+  }
 }
 
 /*-- scss:rules --*/
 .icon-line {
-    display: block;
-    background: $primary;
-    width: 100%;
-    height: 1.5px;
-    margin: auto;
-    display: table;
-    margin-top: 0.5px;
-    margin-bottom: -0.5px;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    text-shadow: -1px -1px 0 rgba(220, 219, 225, 0.3);
-  }
-
-/*-- scss:rules --*/
-
-.highlighted {
-  color: $theme-light-link;
-  font-weight: bold;
+  display: block;
+  background: $primary;
+  width: 100%;
+  height: 1.5px;
+  margin: auto;
+  display: table;
+  margin-top: 0.5px;
+  margin-bottom: -0.5px;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: -1px -1px 0 rgba(220, 219, 225, 0.3);
 }

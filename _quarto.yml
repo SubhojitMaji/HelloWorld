@@ -44,7 +44,6 @@ bibliography: references.bib
 
 format:
   html:
-    cover-image: OM-2.png
     toc: true
     toc-depth: 1
     toc-location: right
