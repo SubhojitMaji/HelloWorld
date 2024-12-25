@@ -28,9 +28,10 @@ from: markdown+emoji
 
 ::: {.content-container}
 
-# Welcome to MySpace:smiley: {.unnumbered}
+# Welcome to MySpace {.unnumbered}
 
-## Want to know Me? {.section-title}
+
+## Want to know Me?:point_down: {.section-title}
 
 **"Exploring the beauty of Mathematics, Coding, and Creativity."**
 
@@ -57,11 +58,18 @@ Hope you all would enjoy browsing through it *:)* !!
 Diving into coding challenges and exploring mathematical insights.
 :::
 
+::: {.g-col-12 .g-col-md-4 .highlight-card}
+### UDGRP 2k24 :notebook_with_decorative_cover: 
+I spent my Winters learning about Random Graphs, where I found out about the various application of Probabilistic Methods in it.
+:::
+
 :::
 
 :::
 
 ::: {.footer-content}
+**Fun-Fact** : I am afraid to show my face, so I designed a logo for it :alien:
+
 Made with ❤️ using [Quarto](https://quarto.org)  
 Last updated: December 2024
 :::
