@@ -1,55 +1,56 @@
 ---
 format: html
-subtitle: "The Legendary Course Works at a Legendary Research Institute(ISI Bang) ."
-title-block-banner: "#f0f3f5"
-title-block-banner-color: "black"
 toc: false
 target: _blank
+from: markdown+emoji
+editor: visual
 ---
-        
-# Course Web Page {.unnumbered}
-:::{.callout-important appearance="minimal" collapse="true"}
-## Sem I @ isibang
-These are some of the works, I did in my B.Math Journey.
 
+:::{.content-container .fade-in}
+
+# Academic Portfolio {.section-title}
+
+:::{.highlight-card .slide-in-left}
+## Semester I Coursework
 
 ### Real Analysis I
-I got some [Real Analysis](https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing){.highlighted} Notes for you all, by [Prof. BV Rajaram Bhatt](https://www.isibang.ac.in/~bhat/){.highlighted}.
+- Instructor: [Prof. BV Rajarama Bhatt](https://www.isibang.ac.in/~bhat/)
+- [Course Notes](https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing)
 
 ### Fundamentals of Computer Programming
-
-We did this course under [Prof. Jishnu Gupta Biswas](https://isi.irins.org/profile/13204){.highlighted}
-Here are a few resorces :-
-
-1. OG Book for [C Programming](https://drive.google.com/file/d/1JgIz5I723BBlrkGD4n0qE4n5U89LD3XY/view?usp=sharing){.highlighted}
-2. My B.Math [FCP course link](https://www.isibang.ac.in/~adean/infsys/database/Bmath/FCP.html){.highlighted}
+- Instructor: [Prof. Jishnu Gupta Biswas](https://isi.irins.org/profile/13204)
+- [Course Page](https://www.isibang.ac.in/~adean/infsys/database/Bmath/FCP.html)
+- [C Programming Reference](https://drive.google.com/file/d/1JgIz5I723BBlrkGD4n0qE4n5U89LD3XY/view?usp=sharing)
 
 ### Probability I
-One of the favourite topics of my interest. This course is being taught by [Prof. Mathew Joseph](https://sites.google.com/view/mjoseph/home){.highlighted}.
+- Instructor: [Prof. Mathew Joseph](https://sites.google.com/view/mjoseph/home)
+- Area of special interest and research focus
 
 ### Elementary Number Theory
-Here are [Assignments](https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing){.highlighted} that were given to us as a Homework. The course was taken by [Prof. Ramdin Mawia](https://sites.google.com/view/ramdinmawia/home){.highlighted}.
+- Instructor: [Prof. Ramdin Mawia](https://sites.google.com/view/ramdinmawia/home)
+- [Assignment Collection](https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing)
 
 ### Linear Algebra I
-This was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and weird stuffs like Resonance Articles. It was taken by [Prof. Anita Naolekar](https://www.isibang.ac.in/~statmath/homepage.html){.highlighted}.
-Here is a [link](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html){.highlighted} to the course page.
-
-:::{.column-margin}
-#### Summary of things other than Course
-> Fortune favours the Brave.
-
-It was my first time spending time outside parents restrictions (obviously took the whole oppurtunity).
-
-Thank fully there were great seniors (A very big list...) to take care of us. 
-
-Participated in College Elections for the Cultural Committee , also used to handle the Social Media Accounts for [LIMIT](www.limitisi.in){.highlighted}.
-
-Faced a lot of internal-conflicts but ended up all nicely.
-
-First-Sem well spent in getting to know about the outside-world.
-:::
+- Instructor: [Prof. Anita Naolekar](https://www.isibang.ac.in/~statmath/homepage.html)
+- [Course Details](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html)
 :::
 
-:::{.callout-important appearance=minimal collapse=true}
-# Sem II @ isibang
+:::{.highlight-card .slide-in-right}
+## Beyond Academics
+
+- **Cultural Committee Representative** : Curated diverse cultural experiences, fostering a global atmosphere on campus.
+- **Design Team Manager for [LIMIT](limitisi.in)** : Honed creative vision and communication skills, led a design team.
+- **Active participation in campus life and student activities** : Connected with peers and forged lasting friendships.
+:::
+
+:::{.highlight-card .slide-in-left}
+## Semester II
+*Current coursework in progress*
+:::
+
+:::
+
+::: {.footer-content}
+Built with ❤️ using [Quarto](https://quarto.org)  
+Last updated: December 2024
 :::

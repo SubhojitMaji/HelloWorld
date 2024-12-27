@@ -1,66 +1,65 @@
 ---
 format: 
-  html:
-    css: styles.css
-    page-layout: full
-    number-sections: false
-image: "Dk Logo.png"
+ html:
+   page-layout: full
+   number-sections: false
+image: "Dk Logo.png" 
 toc: false
 about:
-  template: solana
-  image-shape: round
-  image-width: 10em
-  links: 
-    - icon: linkedin
-      text: "Connect on LinkedIn"
-      href: "https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-      target: _blank
-    - icon: github
-      text: "Explore My GitHub"
-      href: "https://github.com/SubhojitMaji"
-      target: _blank
-    - icon: envelope
-      text: "Drop Me an Email"
-      href: "mailto:majisubhojit198475mail.com"
-      target: _blank
+ template: solana
+ image-shape: round
+ image-width: 12em
+ links:
+   - icon: linkedin
+     text: "LinkedIn"
+     href: "https://www.linkedin.com/in/subhojit-maji-7bbb29268"
+     target: _blank 
+   - icon: github
+     text: "GitHub"
+     href: "https://github.com/SubhojitMaji"
+     target: _blank
+   - icon: envelope
+     text: "Email"
+     href: "mailto:majisubhojit198475@gmail.com"
+     target: _blank
 from: markdown+emoji
+editor: visual
 ---
 
-::: {.content-container}
+:::{.content-container .fade-in}
 
-# Welcome to MySpace {.unnumbered}
+## Welcome! :wave: {.section-title}
 
+I'm **Subhojit Maji**, a B.Math undergraduate at [Indian Statistical Institute, Bangalore](https://www.isibang.ac.in/) 🎓. I was born into a sweet family in **2005** 🍼, in Asansol, India. 🌏  
 
-## Want to know Me?:point_down: {.section-title}
+I’m known for my sense of humor 🤭 and enjoy engaging in fun, lively interactions with people. During my free time, I love diving into the world of **coding** 👨‍💻—a passion I discovered shortly after my first semester at ISI. From experimenting with algorithms to building small projects, coding feels like both a playground and a puzzle to me.  
 
-**"Exploring the beauty of Mathematics, Coding, and Creativity."**
+My primary research interest is **Probability Theory** 📊, where I’m constantly fascinated by the beauty of randomness and structure. That said, my curiosity isn't limited—I love exploring various mathematical and computational ideas, which keeps my learning journey vibrant and rewarding.  
 
-I am **SUBHOJIT MAJI**, a B.Math Undergraduate at [Indian Statistical Institute, Bangalore Centre](https://www.isibang.ac.in/){.highlighted} . My Special Interests are in **Probability Theory** but in no way limited to it .
+Beyond academics, I enjoy connecting with like-minded peers, brainstorming innovative ideas, and occasionally indulging in hobbies that make life more colorful! 🎨✨
 
-Hope you all would enjoy browsing through it *:)* !!
-
-## 2k24 Activities {.section-title}
+## Current Endeavors {.section-title}
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-4 .highlight-card}
-### 🏆 Limit Design Team Member
-[Collaborating on creative projects that merge technical skills and design.]{.highlighted}
+::: {.g-col-12 .g-col-md-6 .highlight-card .slide-in-left}
+### 🏆 LIMIT Design Team
+Merging technical expertise with creative design to craft innovative solutions.
 :::
 
-::: {.g-col-12 .g-col-md-4 .highlight-card}
+::: {.g-col-12 .g-col-md-6 .highlight-card .slide-in-right}
 ### 👥 Cultural Committee Lead
-[Organizing engaging events to enrich student life at ISI Bangalore.]{.highlighted}
+Fostering community through vibrant events at ISI Bangalore.
 :::
 
-::: {.g-col-12 .g-col-md-4 .highlight-card}
-### 💻 Passion for Problem-Solving
-Diving into coding challenges and exploring mathematical insights.
+::: {.g-col-12 .g-col-md-6 .highlight-card .slide-in-left}
+### 💻 Problem Solving
+Tackling complex mathematical challenges and coding puzzles.
 :::
 
-::: {.g-col-12 .g-col-md-4 .highlight-card}
-### UDGRP 2k24 :notebook_with_decorative_cover: 
-I spent my Winters learning about Random Graphs, where I found out about the various application of Probabilistic Methods in it.
+::: {.g-col-12 .g-col-md-6 .highlight-card .slide-in-right}
+### 📚 UDGRP 2024
+Exploring Random Graphs and Probabilistic Methods through winter research.
 :::
 
 :::
@@ -68,8 +67,8 @@ I spent my Winters learning about Random Graphs, where I found out about the var
 :::
 
 ::: {.footer-content}
-**Fun-Fact** : I am afraid to show my face, so I designed a logo for it :alien:
+**Fun Fact**: The logo represents my digital persona :alien:
 
-Made with ❤️ using [Quarto](https://quarto.org)  
-Last updated: December 2024
+Built with ❤️ using [Quarto](https://quarto.org)  
+Updated: December 2024
 :::

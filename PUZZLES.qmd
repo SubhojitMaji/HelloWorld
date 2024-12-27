@@ -1,10 +1,9 @@
 ---
 format: html
 subtitle: "Uff!! Here comes the relief from some routine course works."
-title-block-banner: "#f0f3f5"
-title-block-banner-color: "black"
 toc: false
 from: markdown+emoji
+editor: visual
 ---
 # Puzzles for our Young Minds {.unnumbered}
 ::: {.callout-note collapse="true"}

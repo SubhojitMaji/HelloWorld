@@ -1,9 +1,9 @@
 ---
 subtitle: "Here are some Zebras to Hunt for !!"
 format: html
-title-block-banner: "#f0f3f5"
-title-block-banner-color: "black"
 toc: false
+from: markdown+emoji
+editor: visual
 ---
 
 
