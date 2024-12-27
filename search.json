@@ -84,7 +84,7 @@
     "href": "Latex.html",
     "title": "LaTeX Styling",
     "section": "",
-    "text": "Story Time 😁\nI had to work on the UDGRP Projects of Winter 2024 and there I had to use a lot of latex and make Beamer files and Latex Notes and while there were ample number of templates on OverLeaf but it seemed too boring and it lacked the personal touch I wanted to give to my presentations. So, I decided to create my own sty theme and customize it according to my preferences. 😄",
+    "text": "Story Time 😁\n🎉 Welcome! These .sty files, crafted by me, are designed to enhance your LaTeX experience by adding style and functionality to your documents. Here’s how you can use them:\nI had to work on the UDGRP Projects of Winter 2024 and there I had to use a lot of latex and make Beamer files and Latex Notes and while there were ample number of templates on OverLeaf but it seemed too boring and it lacked the personal touch I wanted to give to my presentations. So, I decided to create my own sty theme and customize it according to my preferences. 😄",
     "crumbs": [
       "My Hobbies",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>LaTeX Styling</span>"
