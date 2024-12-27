@@ -3,10 +3,6 @@ title: "Winter UDGRP 24"
 subtitle: "The secret handshake of information, passed down through generations."
 format:
   html:
-    theme:
-      light: aklight.scss
-      dark: styles.scss
-    css: styles.css
     fontsize: 1.1em
     linestretch: 1.5
     toc: false
