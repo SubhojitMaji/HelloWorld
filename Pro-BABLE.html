@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -47,13 +81,14 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -69,23 +104,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: black;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: black;
-background: #f0f3f5;
-      }
-</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -117,12 +135,13 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -138,46 +157,34 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Pro-Bable</h1>
-            <p class="subtitle lead">Ok! I know you would contradict with me but there is always a probability that <em>I am God</em></p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">SUBHOJIT<span class="icon-line"></span>MAJI</a> 
-        <div class="sidebar-tools-main">
-    <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
+        <div class="sidebar-tools-main tools-wide">
+    <a href="./index.html" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-house-fill"></i></a>
+    <a href="https://github.com/SubhojitMaji" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/subhojit-maji-7bbb29268" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
     </div>
       </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome to MySpace</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome! <span class="emoji" data-emoji="wave">👋</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Course Web Page</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Academic Portfolio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -198,16 +205,10 @@ window.Quarto = {
  <span class="menu-text">Puzzles for our Young Minds</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./acheivements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">My-Journey</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">UDGRP’s</span></a>
+ <span class="menu-text">My Hobbies</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -215,12 +216,33 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./UDGRP 2024.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Winter UDGRP 24</span></a>
+  <a href="./Latex.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">LaTeX Styling</span></a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">UDGRP’s</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./UDGRP 2024.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UDGRP 2024</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./acheivements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">My-Journey</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
@@ -240,10 +262,26 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Pro-Bable</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<p class="subtitle lead">Ok! I know you would contradict with me but there is always a probability that <em>I am God</em></p>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <div class="callout callout-style-default callout-note callout-titled">
@@ -331,6 +369,8 @@ How many couples will Survive ?
 </div>
 </div>
 
+
+<!-- -->
 
 
 </main> <!-- /main -->
@@ -423,6 +463,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       container: window.document.getElementById('quarto-embedded-source-code-modal')
     });
     clipboardModal.on('success', onCopySuccess);
+  }
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
@@ -763,8 +854,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./intro.html" class="pagination-link" aria-label="Course Web Page">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Course Web Page</span>
+      <a href="./intro.html" class="pagination-link" aria-label="Academic Portfolio">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Academic Portfolio</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -772,7 +863,55 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text">ALL-ZEBRAS</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> html+emoji</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> "Ok! I know you would contradict with me but there is always a probability that *I am God*"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">toc:</span><span class="co"> false</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">from:</span><span class="co"> markdown+emoji</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> visual</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu"># Pro-Bable {.unnumbered}</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>:::{.callout-note collapse="false"}</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## Spread of Rumours</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>In a small town of n people a person passes a titbit</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>of information to another person. A rumour is now launched with each recipient of the information passing it on to a randomly chosen individual. What</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>is the probability that the rumour is told r times $\textit{without}$ </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>(a) returning to the originator,</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>(b) being repeated to anyone.</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>:::{.callout-tip collapse="true"}</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## Generalisation</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>Redo the calculations if</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>each person tells the rumour to m randomly selected people .</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>:::{.callout-note collapse="false"}</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Increasing Seuence of Events</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a> Suppose $\set{A_n \vert n&gt;1}$ is an increasing</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a> sequence of events such that , $A_n \subseteq A_{n+1}$ for each n . Let A = $\bigcup_{n=i}^\infty A_n$ .  Show that</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a> $P(A_n)$ $\rightarrow P(A)$ as n $\rightarrow \infty$ .</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>:::{.callout-note collapse="false"}</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## Dice Game</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a> If three dice are thrown. What is the probability that one shows a</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a> 6 given that no two show the same face? Repeat for n dice where $2 &lt; n &lt; 6$</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>:::{.callout-note collapse="false"}</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## How many couples will Survive ?</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>Suppose there are $2n$ individuals who constitute $n$ married couples at a given initial date. We wish to consider the survivors at some given later date. Assume each individual has a probability $p$ of surviving until the later date (and possibly more!), independent of the others. Let $s$ denote the number of survivors at the later date and $c$ denote the number of surviving couples (in which both partners are alive). The problem is to derive an expression for $\mathbb{E}(c \mid s)$ and show that it does not depend on $p$. What about $\mathbb{E}(s \mid c)$? </span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -791,19 +930,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/SubhojitMaji" target="_blank">
+    <a class="nav-link active" href="https://github.com/SubhojitMaji" target="_blank" aria-current="page">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">
+    <a class="nav-link" href="https://www.linkedin.com/in/subhojit-maji-7bbb29268" target="_blank">
       <i class="bi bi-linkedin" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="mailto:majisubhojit198475mail.com" target="_blank">
+    <a class="nav-link" href="mailto:majisubhojit198475@gmail.com" target="_blank">
       <i class="bi bi-envelope-paper-heart-fill" role="img">
 </i> 
     </a>

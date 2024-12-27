@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Course Web Page – Embrace the Majesty</title>
+<title>Academic Portfolio – Embrace the Majesty</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -47,13 +81,14 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -69,37 +104,21 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: black;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: black;
-background: #f0f3f5;
-      }
-</style>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html">Course Web Page</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-title">Academic Portfolio</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -109,46 +128,34 @@ background: #f0f3f5;
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Course Web Page</h1>
-            <p class="subtitle lead">The Legendary Course Works at a Legendary Research Institute(ISI Bang) .</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">SUBHOJIT<span class="icon-line"></span>MAJI</a> 
-        <div class="sidebar-tools-main">
-    <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
+        <div class="sidebar-tools-main tools-wide">
+    <a href="./index.html" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-house-fill"></i></a>
+    <a href="https://github.com/SubhojitMaji" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/subhojit-maji-7bbb29268" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
     </div>
       </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome to MySpace</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome! <span class="emoji" data-emoji="wave">👋</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Course Web Page</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Academic Portfolio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -169,16 +176,10 @@ background: #f0f3f5;
  <span class="menu-text">Puzzles for our Young Minds</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./acheivements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">My-Journey</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">UDGRP’s</span></a>
+ <span class="menu-text">My Hobbies</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -186,12 +187,33 @@ background: #f0f3f5;
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./UDGRP 2024.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Winter UDGRP 24</span></a>
+  <a href="./Latex.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">LaTeX Styling</span></a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">UDGRP’s</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./UDGRP 2024.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UDGRP 2024</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./acheivements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">My-Journey</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
@@ -209,83 +231,89 @@ background: #f0f3f5;
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<div class="callout callout-style-simple callout-important no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-title">Academic Portfolio</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
-<div class="callout-title-container flex-fill">
-Sem I @ isibang
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>These are some of the works, I did in my B.Math Journey.</p>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="content-container fade-in">
+<section id="semester-i-coursework" class="level2 highlight-card slide-in-left">
+<h2 class="anchored" data-anchor-id="semester-i-coursework">Semester I Coursework</h2>
 <section id="real-analysis-i" class="level3">
 <h3 class="anchored" data-anchor-id="real-analysis-i">Real Analysis I</h3>
-<p>I got some <a href="https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing" class="highlighted">Real Analysis</a> Notes for you all, by <a href="https://www.isibang.ac.in/~bhat/" class="highlighted">Prof.&nbsp;BV Rajaram Bhatt</a>.</p>
+<ul>
+<li>Instructor: <a href="https://www.isibang.ac.in/~bhat/">Prof.&nbsp;BV Rajarama Bhatt</a></li>
+<li><a href="https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing">Course Notes</a></li>
+</ul>
 </section>
 <section id="fundamentals-of-computer-programming" class="level3">
 <h3 class="anchored" data-anchor-id="fundamentals-of-computer-programming">Fundamentals of Computer Programming</h3>
-<p>We did this course under <a href="https://isi.irins.org/profile/13204" class="highlighted">Prof.&nbsp;Jishnu Gupta Biswas</a> Here are a few resorces :-</p>
-<ol type="1">
-<li>OG Book for <a href="https://drive.google.com/file/d/1JgIz5I723BBlrkGD4n0qE4n5U89LD3XY/view?usp=sharing" class="highlighted">C Programming</a></li>
-<li>My B.Math <a href="https://www.isibang.ac.in/~adean/infsys/database/Bmath/FCP.html" class="highlighted">FCP course link</a></li>
-</ol>
+<ul>
+<li>Instructor: <a href="https://isi.irins.org/profile/13204">Prof.&nbsp;Jishnu Gupta Biswas</a></li>
+<li><a href="https://www.isibang.ac.in/~adean/infsys/database/Bmath/FCP.html">Course Page</a></li>
+<li><a href="https://drive.google.com/file/d/1JgIz5I723BBlrkGD4n0qE4n5U89LD3XY/view?usp=sharing">C Programming Reference</a></li>
+</ul>
 </section>
 <section id="probability-i" class="level3">
 <h3 class="anchored" data-anchor-id="probability-i">Probability I</h3>
-<p>One of the favourite topics of my interest. This course is being taught by <a href="https://sites.google.com/view/mjoseph/home" class="highlighted">Prof.&nbsp;Mathew Joseph</a>.</p>
+<ul>
+<li>Instructor: <a href="https://sites.google.com/view/mjoseph/home">Prof.&nbsp;Mathew Joseph</a></li>
+<li>Area of special interest and research focus</li>
+</ul>
 </section>
 <section id="elementary-number-theory" class="level3">
 <h3 class="anchored" data-anchor-id="elementary-number-theory">Elementary Number Theory</h3>
-<p>Here are <a href="https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing" class="highlighted">Assignments</a> that were given to us as a Homework. The course was taken by <a href="https://sites.google.com/view/ramdinmawia/home" class="highlighted">Prof.&nbsp;Ramdin Mawia</a>.</p>
+<ul>
+<li>Instructor: <a href="https://sites.google.com/view/ramdinmawia/home">Prof.&nbsp;Ramdin Mawia</a></li>
+<li><a href="https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing">Assignment Collection</a></li>
+</ul>
 </section>
 <section id="linear-algebra-i" class="level3">
 <h3 class="anchored" data-anchor-id="linear-algebra-i">Linear Algebra I</h3>
-<p>This was without a doubt the best course in the 1st semester. I got to learn a lot of new stuff and got myself acquainted with proof writing and weird stuffs like Resonance Articles. It was taken by <a href="https://www.isibang.ac.in/~statmath/homepage.html" class="highlighted">Prof.&nbsp;Anita Naolekar</a>. Here is a <a href="https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html" class="highlighted">link</a> to the course page.</p>
-
+<ul>
+<li>Instructor: <a href="https://www.isibang.ac.in/~statmath/homepage.html">Prof.&nbsp;Anita Naolekar</a></li>
+<li><a href="https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html">Course Details</a></li>
+</ul>
+</section>
+</section>
+<section id="beyond-academics" class="level2 highlight-card slide-in-right">
+<h2 class="anchored" data-anchor-id="beyond-academics">Beyond Academics</h2>
+<ul>
+<li><strong>Cultural Committee Representative</strong> : Curated diverse cultural experiences, fostering a global atmosphere on campus.</li>
+<li><strong>Design Team Manager for <a href="limitisi.in">LIMIT</a></strong> : Honed creative vision and communication skills, led a design team.</li>
+<li><strong>Active participation in campus life and student activities</strong> : Connected with peers and forged lasting friendships.</li>
+</ul>
+</section>
+<section id="semester-ii" class="level2 highlight-card slide-in-left">
+<h2 class="anchored" data-anchor-id="semester-ii">Semester II</h2>
+<p><em>Current coursework in progress</em></p>
 </section>
 </div>
-</div>
-</div>
-<div class="no-row-height column-margin column-container"><section id="summary-of-things-other-than-course" class="level4 callout-1-contents callout-collapse collapse callout-margin-content callout-margin-content-simple">
-<h4 class="anchored" data-anchor-id="summary-of-things-other-than-course">Summary of things other than Course</h4>
-<blockquote class="blockquote">
-<p>Fortune favours the Brave.</p>
-</blockquote>
-<p>It was my first time spending time outside parents restrictions (obviously took the whole oppurtunity).</p>
-<p>Thank fully there were great seniors (A very big list…) to take care of us.</p>
-<p>Participated in College Elections for the Cultural Committee , also used to handle the Social Media Accounts for <a href="www.limitisi.in" class="highlighted">LIMIT</a>.</p>
-<p>Faced a lot of internal-conflicts but ended up all nicely.</p>
-<p>First-Sem well spent in getting to know about the outside-world.</p>
-</section></div><div class="callout callout-style-simple callout-important no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Sem II @ isibang
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
+<div class="footer-content">
+<p>Built with ❤️ using <a href="https://quarto.org">Quarto</a><br>
+Last updated: December 2024</p>
 </div>
 
+
+<!-- -->
 
 
 </main> <!-- /main -->
@@ -378,6 +406,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       container: window.document.getElementById('quarto-embedded-source-code-modal')
     });
     clipboardModal.on('success', onCopySuccess);
+  }
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
@@ -718,8 +797,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Welcome to MySpace">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Welcome to MySpace</span>
+      <a href="./index.html" class="pagination-link" aria-label="Welcome! :wave:">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Welcome! <span class="emoji" data-emoji="wave">👋</span></span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -727,7 +806,64 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text">Pro-Bable</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> html</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">toc:</span><span class="co"> false</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">target:</span><span class="co"> _blank</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">from:</span><span class="co"> markdown+emoji</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> visual</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>:::{.content-container .fade-in}</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu"># Academic Portfolio {.section-title}</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>:::{.highlight-card .slide-in-left}</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Semester I Coursework</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">### Real Analysis I</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Instructor: <span class="co">[</span><span class="ot">Prof. BV Rajarama Bhatt</span><span class="co">](https://www.isibang.ac.in/~bhat/)</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Course Notes</span><span class="co">](https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing)</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">### Fundamentals of Computer Programming</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Instructor: <span class="co">[</span><span class="ot">Prof. Jishnu Gupta Biswas</span><span class="co">](https://isi.irins.org/profile/13204)</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Course Page</span><span class="co">](https://www.isibang.ac.in/~adean/infsys/database/Bmath/FCP.html)</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">C Programming Reference</span><span class="co">](https://drive.google.com/file/d/1JgIz5I723BBlrkGD4n0qE4n5U89LD3XY/view?usp=sharing)</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">### Probability I</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Instructor: <span class="co">[</span><span class="ot">Prof. Mathew Joseph</span><span class="co">](https://sites.google.com/view/mjoseph/home)</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Area of special interest and research focus</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">### Elementary Number Theory</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Instructor: <span class="co">[</span><span class="ot">Prof. Ramdin Mawia</span><span class="co">](https://sites.google.com/view/ramdinmawia/home)</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Assignment Collection</span><span class="co">](https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing)</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="fu">### Linear Algebra I</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Instructor: <span class="co">[</span><span class="ot">Prof. Anita Naolekar</span><span class="co">](https://www.isibang.ac.in/~statmath/homepage.html)</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Course Details</span><span class="co">](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html)</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>:::{.highlight-card .slide-in-right}</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="fu">## Beyond Academics</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Cultural Committee Representative** : Curated diverse cultural experiences, fostering a global atmosphere on campus.</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Design Team Manager for [LIMIT](limitisi.in)** : Honed creative vision and communication skills, led a design team.</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Active participation in campus life and student activities** : Connected with peers and forged lasting friendships.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>:::{.highlight-card .slide-in-left}</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="fu">## Semester II</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>*Current coursework in progress*</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>::: {.footer-content}</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>Built with ❤️ using <span class="co">[</span><span class="ot">Quarto</span><span class="co">](https://quarto.org)</span>  </span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>Last updated: December 2024</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -746,19 +882,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/SubhojitMaji" target="_blank">
+    <a class="nav-link active" href="https://github.com/SubhojitMaji" target="_blank" aria-current="page">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">
+    <a class="nav-link" href="https://www.linkedin.com/in/subhojit-maji-7bbb29268" target="_blank">
       <i class="bi bi-linkedin" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="mailto:majisubhojit198475mail.com" target="_blank">
+    <a class="nav-link" href="mailto:majisubhojit198475@gmail.com" target="_blank">
       <i class="bi bi-envelope-paper-heart-fill" role="img">
 </i> 
     </a>

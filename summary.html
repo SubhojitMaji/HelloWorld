@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -31,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./references.html" rel="next">
-<link href="./UDGRP 2024.html" rel="prev">
+<link href="./acheivements.html" rel="prev">
 <link href="./LOGO-3.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -47,13 +81,14 @@ ul.task-list li input[type="checkbox"] {
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
-  "type": "overlay",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -71,6 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -98,23 +134,28 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">SUBHOJIT<span class="icon-line"></span>MAJI</a> 
-        <div class="sidebar-tools-main">
-    <div id="quarto-search" class="quarto-navigation-tool px-1" title="Search"></div>
+        <div class="sidebar-tools-main tools-wide">
+    <a href="./index.html" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-house-fill"></i></a>
+    <a href="https://github.com/SubhojitMaji" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/in/subhojit-maji-7bbb29268" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
     </div>
       </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome to MySpace</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome! :wave:</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Course Web Page</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Academic Portfolio</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -135,16 +176,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Puzzles for our Young Minds</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./acheivements.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">My-Journey</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">UDGRP’s</span></a>
+ <span class="menu-text">My Hobbies</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -152,12 +187,33 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./UDGRP 2024.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Winter UDGRP 24</span></a>
+  <a href="./Latex.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">LaTeX Styling</span></a>
   </div>
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">UDGRP’s</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./UDGRP 2024.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">UDGRP 2024</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./acheivements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">My-Journey</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link active">
@@ -183,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Summary</h1>
+<div class="quarto-title-block"><div><h1 class="title">Summary</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -202,6 +258,8 @@ ul.task-list li input[type="checkbox"] {
 
 <p>‘There is always a probability of winning in life , no matter which stage you are at. Just believe in yourself and make the best choices.’</p>
 
+
+<!-- -->
 
 
 </main> <!-- /main -->
@@ -294,6 +352,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       container: window.document.getElementById('quarto-embedded-source-code-modal')
     });
     clipboardModal.on('success', onCopySuccess);
+  }
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
@@ -634,8 +743,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./UDGRP 2024.html" class="pagination-link" aria-label="Winter UDGRP 24">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Winter UDGRP 24</span>
+      <a href="./acheivements.html" class="pagination-link" aria-label="My-Journey">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">My-Journey</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -643,7 +752,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Summary {.unnumbered}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>'There is always a probability of winning in life , no matter which stage you are at. Just believe in yourself and make the best choices.'</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -662,19 +775,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/SubhojitMaji" target="_blank">
+    <a class="nav-link active" href="https://github.com/SubhojitMaji" target="_blank" aria-current="page">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/subhojit-maji-7bbb29268?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank">
+    <a class="nav-link" href="https://www.linkedin.com/in/subhojit-maji-7bbb29268" target="_blank">
       <i class="bi bi-linkedin" role="img">
 </i> 
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="mailto:majisubhojit198475mail.com" target="_blank">
+    <a class="nav-link" href="mailto:majisubhojit198475@gmail.com" target="_blank">
       <i class="bi bi-envelope-paper-heart-fill" role="img">
 </i> 
     </a>
