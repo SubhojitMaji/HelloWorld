@@ -65,7 +65,7 @@ format:
     css: styles.css
     fontsize: 1.1em
     linestretch: 1.5
-    toc: false
+    toc: true
     toc-depth: 1
     toc-location: right
     toc-expand: false
