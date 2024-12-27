@@ -24,11 +24,6 @@ Distinct Eigen-Values correspond to linearly independent Eigen-Vectors.(Prove it
 If all eigen vectors are linearly independent then the matrix is diagonalizable and the diagonal matrix has $\lambda_1 , \lambda_2, \cdots \lambda_n$ as diagonal entries.
 :::
 
-:::{.column-margin}
-#### Hints
-Try thinking about the case for 2, then extend it by Induction.
-:::
-
 :::
 
 :::{.callout-tip collapse="true"}

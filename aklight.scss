@@ -321,10 +321,7 @@ pre, code {
       color: lighten($dark-mode-link, 10%);
     }
   }
-  
-  .card, pre, code {
-    background: $dark-mode-background-secondary;
-  }
+
   
   .navbar {
     background: rgba($dark-mode-background-primary, 0.95);

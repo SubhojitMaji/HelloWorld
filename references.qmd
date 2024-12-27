@@ -1,4 +1,6 @@
-
+---
+from: markdown+emoji
+---
 
 # References {.unnumbered}
 

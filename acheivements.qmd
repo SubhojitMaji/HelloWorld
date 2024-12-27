@@ -1,9 +1,6 @@
 ---
 format: html
 subtitle: "A brief history of me, in all its chaotic glory."
-title-block-banner: "#f0f3f5"
-title-block-banner-color: "black"
-toc: true
 from: markdown+emoji
 ---
 # My-Journey {.unnumbered}

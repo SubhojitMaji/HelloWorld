@@ -5,7 +5,6 @@ format:
         code-summary: "Show Code"
 title: "LaTeX Styling"
 subtitle: "Behold! The fruits of my LaTeX labors, now available for your (hopefully appreciative) use."
-toc: true
 target: _blank
 from: markdown+emoji
 editor: visual
