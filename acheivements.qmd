@@ -2,6 +2,7 @@
 format: html
 subtitle: "A brief history of me, in all its chaotic glory."
 from: markdown+emoji
+toc: false
 ---
 # My-Journey {.unnumbered}
 :::{.callout-note appearance="minimal" collapse="true"}
