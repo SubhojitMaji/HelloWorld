@@ -42,22 +42,22 @@ Beyond academics, I enjoy connecting with like-minded peers, brainstorming innov
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-6 .highlight-card .slide-in-left}
+::: {.g-col-12 .g-col-md-6 .highlight-card .fade-in}
 ### 🏆 LIMIT Design Team
 Merging technical expertise with creative design to craft innovative solutions.
 :::
 
-::: {.g-col-12 .g-col-md-6 .highlight-card .slide-in-right}
+::: {.g-col-12 .g-col-md-6 .highlight-card .fade-in}
 ### 👥 Cultural Committee Lead
 Fostering community through vibrant events at ISI Bangalore.
 :::
 
-::: {.g-col-12 .g-col-md-6 .highlight-card .slide-in-left}
+::: {.g-col-12 .g-col-md-6 .highlight-card .fade-in}
 ### 💻 Problem Solving
 Tackling complex mathematical challenges and coding puzzles.
 :::
 
-::: {.g-col-12 .g-col-md-6 .highlight-card .slide-in-right}
+::: {.g-col-12 .g-col-md-6 .highlight-card .fade-in}
 ### 📚 UDGRP 2024
 Exploring Random Graphs and Probabilistic Methods through winter research.
 :::

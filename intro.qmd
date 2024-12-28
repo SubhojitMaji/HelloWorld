@@ -35,7 +35,7 @@ editor: visual
 - [Course Details](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html)
 :::
 
-:::{.highlight-card .slide-in-right}
+:::{.highlight-card .fade-in}
 ## Beyond Academics
 
 - **Cultural Committee Representative** : Curated diverse cultural experiences, fostering a global atmosphere on campus.
