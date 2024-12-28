@@ -1,0 +1,21 @@
+---
+format: html
+subtitle: "A brief history of me, in all its chaotic glory."
+from: markdown+emoji
+toc: false
+---
+# My-Journey {.unnumbered}
+:::{.callout-note appearance="minimal" collapse="true"}
+## It is the list of thing done before joining ISI :relaxed: !!
+
+- Qualified JEE Mains in 2024(With 99.57 percentile).
+- Qualified JEE Advanced.
+- Qualified WBJEE in 2024(Rank 291).
+- Qualified for RMO twice(in the years 2020 and 2023).
+- Participated at OPhO(Online Physics Olympiad by Jaan Kalda).
+- Qualified ISI B.Math Entrance Exam.
+- Bronze Medalist at DIGO(Conducted by AoPS).
+- Recieved the Centre Topper Certificates for NSEP, NSEC and NSEA.
+- CBSE Boards Class X - 95% and Class XII - 93% .
+
+:::

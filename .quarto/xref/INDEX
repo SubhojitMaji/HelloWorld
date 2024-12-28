@@ -1,38 +1,32 @@
 {
   "index.qmd": {
-    "index.html": "8862ef82"
+    "index.html": "57b0b52d"
   },
   "intro.qmd": {
-    "intro.html": "f7036141"
-  },
-  "summary.qmd": {
-    "summary.html": "52a0f644"
-  },
-  "references.qmd": {
-    "references.html": "4715fdcd"
-  },
-  "acheivements.qmd": {
-    "acheivements.html": "fe350854"
+    "intro.html": "70a7e061"
   },
   "Pro-BABLE.qmd": {
-    "Pro-BABLE.html": "a34c85a9"
+    "Pro-BABLE.html": "2a51c956"
   },
-  "AL-ZEBRA.qmd": {
-    "AL-ZEBRA.html": "46938bc7"
+  "ALL-ZEBRA.qmd": {
+    "ALL-ZEBRA.html": "7c32ca05"
   },
   "PUZZLES.qmd": {
-    "PUZZLES.html": "961900d5"
-  },
-  "UDGRP 2024.qmd": {
-    "UDGRP 2024.html": "00d8991f"
-  },
-  "Resources/index.qmd": {
-    "index.html": "ab30eccd"
-  },
-  "INTERESTS.qmd": {
-    "INTERESTS.html": "7f6eb685"
+    "PUZZLES.html": "0da264b9"
   },
   "Latex.qmd": {
-    "Latex.html": "b5b3459c"
+    "Latex.html": "a4ab0cfd"
+  },
+  "UDGRP 2024.qmd": {
+    "UDGRP 2024.html": "f70961af"
+  },
+  "acheivements.qmd": {
+    "acheivements.html": "7682d16c"
+  },
+  "summary.qmd": {
+    "summary.html": "dc8db6cf"
+  },
+  "references.qmd": {
+    "references.html": "ba302a92"
   }
 }

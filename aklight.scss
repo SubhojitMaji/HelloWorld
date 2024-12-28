@@ -1,0 +1,370 @@
+/*-- scss:defaults --*/
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+// Color Palette Definition
+// Core Colors
+$color-primary: #2d5d7b;
+$color-secondary: #457b9d;
+$color-accent: #e23f93;
+
+// Text Colors
+$color-text-primary: #2b2d42;
+$color-text-secondary: #501b5c;
+$color-text-light: hsl(210, 100%, 79%);
+
+// Background Colors
+$color-background-primary: #ffffff;
+$color-background-secondary: #f8f9fa;
+$color-background-accent: #e9ecef;
+
+// State Colors
+$color-success: #2a9d8f;
+$color-warning: #e9c46a;
+$color-error: #e63946;
+$color-info: #457b9d;
+
+// Border Colors
+$color-border: #dee2e6;
+
+// Dark Mode Colors
+$dark-mode-text-primary: #f8f9fa;
+$dark-mode-text-secondary: #ced4da;
+$dark-mode-background-primary: #1a1a1a;
+$dark-mode-background-secondary: #2d3238;
+$dark-mode-link: #a692e5;
+$dark-mode-border: #4a5568;
+
+// Typography Settings
+$font-family-sans-serif: "Montserrat", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell !default;
+$font-family-serif: "Lora", Georgia, "Times New Roman", serif !default;
+$font-family-monospace: "JetBrains Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace !default;
+
+// Base font sizes using rem for better scaling
+$font-size-base: 1rem !default;
+$font-size-sm: $font-size-base * 0.875 !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-xl: $font-size-base * 1.5 !default;
+
+// Heading Sizes
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 1 !default;
+$h3-font-size: $font-size-base * 1 !default;
+$h4-font-size: $font-size-base * 1 !default;
+$h5-font-size: $font-size-base * 1 !default;
+$h6-font-size: $font-size-base !default;
+
+// Line Heights
+$line-height-base: 1.6 !default;
+$line-height-sm: 1.25 !default;
+$line-height-lg: 2 !default;
+
+// Spacing
+$spacing-base: 1rem !default;
+$spacing-xs: $spacing-base * 0.25 !default;
+$spacing-sm: $spacing-base * 0.5 !default;
+$spacing-md: $spacing-base !default;
+$spacing-lg: $spacing-base * 1.5 !default;
+$spacing-xl: $spacing-base * 2 !default;
+
+// Border Radius
+$border-radius-sm: 4px !default;
+$border-radius: 6px !default;
+$border-radius-lg: 8px !default;
+
+// Transitions
+$transition-base: all 0.3s ease !default;
+$transition-fast: all 0.15s ease !default;
+$transition-slow: all 0.45s ease !default;
+
+// Shadows
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12) !default;
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1) !default;
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !default;
+
+// Adding Fonts for SideBar Customs
+
+$sidebar-font: "Alegreya", serif !default;
+$sidebar-title-color: $color-text-secondary !default;
+$sidebar-background: rgba($color-background-primary, 0.69) !default;
+
+
+/*-- scss:rules --*/
+
+// Base Styles
+body {
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $color-text-primary;
+  background-color: $color-background-primary;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif;
+  font-weight: 700;
+  line-height: $line-height-sm;
+  margin-bottom: $spacing-lg;
+  color: $color-text-primary;
+}
+
+h1 { font-size: $h1-font-size; }
+h2 { font-size: $h2-font-size; }
+h3 { font-size: $h3-font-size; }
+h4 { font-size: $h4-font-size; }
+h5 { font-size: $h5-font-size; }
+h6 { font-size: $h6-font-size; }
+
+// Links
+a {
+  color: $color-primary;
+  text-decoration: none;
+  transition: $transition-base;
+  position: relative;
+  
+  &:hover {
+    color: darken($color-primary, 10%);
+  }
+  
+  &:focus {
+    outline: 3px solid rgba($color-primary, 0.4);
+    outline-offset: 2px;
+  }
+}
+
+// Enhanced Link Animation
+a:not(.nav-link) {
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.45s ease;
+  }
+  
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+// Navigation
+.navbar {
+  background: rgba($color-background-primary, 0.95);
+  border-bottom: 1px solid $color-border;
+  padding: $spacing-sm $spacing-md;
+  
+  .nav-link {
+    color: $color-text-primary;
+    padding: $spacing-sm $spacing-md;
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background: $color-accent;
+      transition: $transition-base;
+    }
+    
+    &:hover::after {
+      width: 100%;
+      left: 0;
+    }
+  }
+}
+
+// Code Blocks
+pre, code {
+  font-family: $font-family-monospace;
+  background: $color-background-secondary;
+  border-radius: $border-radius;
+  padding: $spacing-md;
+  margin: $spacing-md 0;
+  box-shadow: $shadow-sm;
+  transition: $transition-base;
+  
+  &:hover {
+    box-shadow: $shadow-md;
+  }
+}
+
+// Callouts
+.callout {
+  border-radius: $border-radius;
+  padding: $spacing-lg;
+  margin: $spacing-lg 0;
+  border-left: 4px solid;
+  background: $color-background-primary;
+  transition: $transition-base;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: $shadow-md;
+  }
+  
+  &.note { border-color: $color-info; }
+  &.warning { border-color: $color-warning; }
+  &.important { border-color: $color-error; }
+  &.tip { border-color: $color-success; }
+}
+
+// Cards
+.card {
+  background: $color-background-secondary;
+  border-radius: $border-radius;
+  padding: $spacing-lg;
+  margin: $spacing-md 0;
+  box-shadow: $shadow-sm;
+  transition: $transition-base;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow-lg;
+  }
+}
+
+.sidebar {
+  background: $sidebar-background;
+  border-right: 2px solid $color-border;
+  box-shadow: $shadow-sm;
+  
+  // Sidebar title styling
+  .sidebar-title {
+    font-family: $sidebar-font;
+    font-weight: 690;
+    color: $sidebar-title-color;
+    font-size: $font-size-lg;
+    padding: $spacing-md;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid $color-accent;
+    margin-bottom: $spacing-md;
+    
+    &::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 2px;
+      background: $color-accent;
+      margin-top: $spacing-sm;
+      transition: $transition-base;
+    }
+    
+    &:hover::after {
+      width: 100%;
+    }
+  }
+  
+  // Sidebar navigation items
+  .sidebar-navigation {
+    .active {
+      color: $color-accent;
+      font-weight: 690;
+      border-left: 3px solid $color-accent;
+      padding-left: $spacing-sm;
+    }
+  }
+}
+
+// Dark mode adjustments for sidebar
+@media (prefers-color-scheme: dark) {
+  .sidebar {
+    background: rgba($dark-mode-background-primary, 0.98);
+    border-right-color: $dark-mode-border;
+    
+    .sidebar-title {
+      color: $dark-mode-text-primary;
+    }
+  }
+}
+
+// Responsive adjustments for sidebar
+@media (max-width: 768px) {
+  .sidebar {
+    .sidebar-title {
+      font-size: $font-size-base;
+      padding: $spacing-sm;
+    }
+  }
+}
+
+// Dark Mode
+@media (prefers-color-scheme: dark) {
+  body {
+    color: $dark-mode-text-primary;
+    background-color: $dark-mode-background-primary;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-mode-text-primary;
+  }
+  
+  a {
+    color: $dark-mode-link;
+    
+    &:hover {
+      color: lighten($dark-mode-link, 10%);
+    }
+  }
+
+  
+  .navbar {
+    background: rgba($dark-mode-background-primary, 0.95);
+    border-color: $dark-mode-border;
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  html {
+    font-size: 95%;
+  }
+  
+  .container {
+    padding: $spacing-md;
+  }
+  
+  h1 { font-size: $h1-font-size * 0.8; }
+  h2 { font-size: $h2-font-size * 0.8; }
+  h3 { font-size: $h3-font-size * 0.8; }
+}
+
+// Print Styles
+@media print {
+  body {
+    color: #000;
+    background: #fff;
+  }
+  
+  a {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  .no-print {
+    display: none;
+  }
+}
+/*-- scss:rules --*/
+.icon-line {
+  display: table;
+  background: $color-primary;
+  width: 100%;
+  height: 1.5px;
+  margin: 0.5px auto -0.5px;
+}

@@ -1,0 +1,10 @@
+---
+from: markdown+emoji
+---
+
+# References {.unnumbered}
+
+1. A Basic Introduction to [Randomness](https://www.ias.ac.in/article/fulltext/reso/001/02/0055-0068) by Rajeeva L Karandikar .
+
+:::{#refs}
+:::

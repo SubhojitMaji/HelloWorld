@@ -1,0 +1,57 @@
+---
+subtitle: "Here are some Zebras to Hunt for !!"
+format: html
+toc: false
+from: markdown+emoji
+editor: visual
+---
+
+
+# ALL-ZEBRAS {.unnumbered}
+:::{.callout-tip collapse="true"}
+## The Most Common Determinant
+
+Determine the value of the determinant of
+\begin{vmatrix}\gcd (1,1)&\gcd (1,2)&\cdots &\gcd (1,n)\\\gcd (2,1)&\gcd (2,2)&\cdots &\gcd (2,n)\\\vdots&\vdots&\ddots&\vdots\\\gcd (n,1)&\gcd (n,2)&\cdots &\gcd (n,n)\end{vmatrix}\
+:::
+
+:::{.callout-tip collapse="true"}
+## Some Eigen Stuffs 
+
+Distinct Eigen-Values correspond to linearly independent Eigen-Vectors.(Prove it !!)
+
+:::{.callout-note collapse="true"}
+If all eigen vectors are linearly independent then the matrix is diagonalizable and the diagonal matrix has $\lambda_1 , \lambda_2, \cdots \lambda_n$ as diagonal entries.
+:::
+
+:::
+
+:::{.callout-tip collapse="true"}
+## Series is good for Health
+
+Let $a_n = (\ln 3)^n \sum_{k=1}^{n} \frac{k^2}{k!(n-k)!}$ . Then the sum of the series $a_1 + a_2 + a_3 + ... \to \infty$ , is equal to?
+
+:::{.callout collapse="true"}
+## Solution
+
+[Video Solution](https://youtu.be/S56NGhteqCE?si=j_5-WG_R9wq7LGlb)
+:::
+:::
+
+:::{.callout-tip collapse="true"}
+### Same-Same Yet Different!!
+
+A is a $n \times m$ matrix and B is a $m \times n$ matrix . If $|I_{n} - AB|$ is non-singular so is $|I_{m} - BA|$
+:::
+    
+:::{.callout-tip collapse="true"}
+## INMO 2024
+
+For each positive integer $n \ge 3$, define $A_n$ and $B_n$ as
+$A_n = \sqrt{n^2 + 1} + \sqrt{n^2 + 3} + \cdots + \sqrt{n^2+2n-1}$ , $B_n = \sqrt{n^2 + 2} + \sqrt{n^2 + 4} + \cdots + \sqrt{n^2 + 2n}.$ Determine all positive integers $n\ge 3$ for which $\lfloor A_n \rfloor = \lfloor B_n \rfloor$.
+
+:::{.callout-note icon="false" collapse="true"}
+For any real number $x$, $\lfloor x\rfloor$ denotes the largest integer $N\le x$.
+
+:::
+:::

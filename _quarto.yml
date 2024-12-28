@@ -1,0 +1,89 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Embrace the Majesty"
+  author: "Subhojit Maji"
+  date: "last-modified"
+  favicon: LOGO-3.png
+  
+  sidebar:
+    title: |
+      SUBHOJIT<span class='icon-line'></span>MAJI
+    style: docked
+    background: "#dad7eb"
+    collapse-level: 1
+    tools:
+      - icon: house-fill
+        href: index.html
+      - icon: github
+        href: https://github.com/SubhojitMaji
+      - icon: linkedin
+        href: https://www.linkedin.com/in/subhojit-maji-7bbb29268
+  
+  search: true
+  page-navigation: true
+  
+  page-footer:
+    left:
+      - text: "Copyright 2024, Subhojit Maji"
+        icon: c-circle
+    right:
+      - icon: github
+        href: https://github.com/SubhojitMaji
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/subhojit-maji-7bbb29268
+        target: _blank
+      - icon: envelope-paper-heart-fill
+        href: mailto:majisubhojit198475@gmail.com
+        target: _blank
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - Pro-BABLE.qmd
+    - ALL-ZEBRA.qmd
+    - PUZZLES.qmd
+    - part: "My Hobbies"
+      chapters:
+        - Latex.qmd
+    - part: "UDGRP's"
+      chapters:
+        - text: "UDGRP 2024"
+          file: "UDGRP 2024.qmd"
+    - acheivements.qmd
+    - summary.qmd
+    - references.qmd
+
+format:
+  html:
+    theme: 
+      - aklight.scss
+      - styles.scss
+    fontsize: 1.1em
+    linestretch: 1.5
+    toc: true
+    toc-depth: 1
+    toc-location: right
+    toc-expand: false
+    number-sections: false
+    smooth-scroll: true
+    
+    grid:
+      sidebar-width: 350px
+      body-width: 800px
+      margin-width: 450px
+      gutter-width: 1.5rem
+    
+    link-external-icon: true
+    link-external-newwindow: true
+    embed-resources: false
+    
+    code-fold: false
+    code-tools: true
+    code-copy: true
+    code-overflow: wrap
+
+bibliography: references.bib

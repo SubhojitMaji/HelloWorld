@@ -1,0 +1,47 @@
+---
+format: html+emoji
+subtitle: "Ok! I know you would contradict with me but there is always a probability that *I am God*"
+toc: false
+from: markdown+emoji
+editor: visual
+---
+# Pro-Bable {.unnumbered}
+:::{.callout-note collapse="false"}
+## Spread of Rumours
+In a small town of n people a person passes a titbit
+of information to another person. A rumour is now launched with each recipient of the information passing it on to a randomly chosen individual. What
+is the probability that the rumour is told r times $\textit{without}$ 
+ 
+(a) returning to the originator,
+ 
+(b) being repeated to anyone.
+
+:::{.callout-tip collapse="true"}
+## Generalisation
+
+Redo the calculations if
+each person tells the rumour to m randomly selected people .
+:::
+:::
+
+:::{.callout-note collapse="false"}
+## Increasing Seuence of Events
+
+ Suppose $\set{A_n \vert n>1}$ is an increasing
+ sequence of events such that , $A_n \subseteq A_{n+1}$ for each n . Let A = $\bigcup_{n=i}^\infty A_n$ .  Show that
+ $P(A_n)$ $\rightarrow P(A)$ as n $\rightarrow \infty$ .
+:::
+
+:::{.callout-note collapse="false"}
+## Dice Game
+
+ If three dice are thrown. What is the probability that one shows a
+ 6 given that no two show the same face? Repeat for n dice where $2 < n < 6$
+:::
+
+:::{.callout-note collapse="false"}
+## How many couples will Survive ?
+
+Suppose there are $2n$ individuals who constitute $n$ married couples at a given initial date. We wish to consider the survivors at some given later date. Assume each individual has a probability $p$ of surviving until the later date (and possibly more!), independent of the others. Let $s$ denote the number of survivors at the later date and $c$ denote the number of surviving couples (in which both partners are alive). The problem is to derive an expression for $\mathbb{E}(c \mid s)$ and show that it does not depend on $p$. What about $\mathbb{E}(s \mid c)$? 
+
+:::

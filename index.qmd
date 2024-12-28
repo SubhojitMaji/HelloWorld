@@ -1,0 +1,74 @@
+---
+format: 
+ html:
+   page-layout: full
+   number-sections: false
+image: "Dk Logo.png" 
+toc: false
+about:
+ template: solana
+ image-shape: round
+ image-width: 12em
+ links:
+   - icon: linkedin
+     text: "LinkedIn"
+     href: "https://www.linkedin.com/in/subhojit-maji-7bbb29268"
+     target: _blank 
+   - icon: github
+     text: "GitHub"
+     href: "https://github.com/SubhojitMaji"
+     target: _blank
+   - icon: envelope
+     text: "Email"
+     href: "mailto:majisubhojit198475@gmail.com"
+     target: _blank
+from: markdown+emoji
+editor: visual
+---
+
+:::{.content-container .fade-in}
+
+## Welcome! :wave: {.section-title}
+
+I'm **Subhojit Maji**, a B.Math undergraduate at [Indian Statistical Institute, Bangalore](https://www.isibang.ac.in/) 🎓. I was born into a sweet family in **2005** 🍼, in Asansol, India. 🌏  
+
+I’m known for my sense of humor 🤭 and enjoy engaging in fun, lively interactions with people. During my free time, I love diving into the world of **coding** 👨‍💻—a passion I discovered shortly after my first semester at ISI. From experimenting with algorithms to building small projects, coding feels like both a playground and a puzzle to me.  
+
+My primary research interest is **Probability Theory** 📊, where I’m constantly fascinated by the beauty of randomness and structure. That said, my curiosity isn't limited—I love exploring various mathematical and computational ideas, which keeps my learning journey vibrant and rewarding.  
+
+Beyond academics, I enjoy connecting with like-minded peers, brainstorming innovative ideas, and occasionally indulging in hobbies that make life more colorful! 🎨✨
+
+## Current Endeavors {.section-title}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .highlight-card .fade-in}
+### 🏆 LIMIT Design Team
+Merging technical expertise with creative design to craft innovative solutions.
+:::
+
+::: {.g-col-12 .g-col-md-6 .highlight-card .fade-in}
+### 👥 Cultural Committee Lead
+Fostering community through vibrant events at ISI Bangalore.
+:::
+
+::: {.g-col-12 .g-col-md-6 .highlight-card .fade-in}
+### 💻 Problem Solving
+Tackling complex mathematical challenges and coding puzzles.
+:::
+
+::: {.g-col-12 .g-col-md-6 .highlight-card .fade-in}
+### 📚 UDGRP 2024
+Exploring Random Graphs and Probabilistic Methods through winter research.
+:::
+
+:::
+
+:::
+
+::: {.footer-content}
+**Fun Fact**: A logo was necessary. You'd thank me if you saw my face. :alien:
+
+Built with ❤️ using [Quarto](https://quarto.org)  
+Updated: December 2024
+:::

@@ -1,0 +1,55 @@
+---
+format: 
+    html:
+        code-fold: true
+        code-summary: "Show Code"
+subtitle: "Behold! The fruits of my LaTeX labors, now available for your (hopefully appreciative) use."
+target: _blank
+from: markdown+emoji
+toc: false
+editor: visual
+---
+:::{.content-container .fade-in}
+
+# LaTeX Styling {.unnumbered}
+---
+
+🎉 **Welcome!** These `.sty` files, crafted by me, are designed to enhance your LaTeX experience by adding style and functionality to your documents. Here’s how you can use them:  
+
+---
+
+
+## Story Time :grin:
+
+I had to work on the UDGRP Projects of Winter 2024 and there I had to use a lot of latex and make Beamer files and Latex Notes and while there were ample number of templates on OverLeaf but it seemed too boring and it lacked the personal touch I wanted to give to my presentations. So, I decided to create my own sty theme and customize it according to my preferences. :smile:
+
+## FAQ :confused:
+
+### Q. How do I use them ?
+
+Primarily crafted for the mathematically inclined 🧠, this toolset is ideal for penning articles and books on Mathematics and its mischievous offspring, Applied Mathematics (aka Physics) 💥. No offense to any field, of course! 😇 Physics, bless its chaotic heart ❤️, keeps mathematicians on their toes with its constant demand for elegant solutions to messy real-world problems 🤯. Otherwise, we'd all be stuck proving theorems in a vacuum 🕳️, and frankly, that sounds terribly dull 😴.
+
+:::{.callout-note collapse="true"} 
+# 🚀 Simple Steps to Get Started
+
+##### 1. *Download the Files*
+Head over to the [GitHub repository](https://github.com/SubhojitMaji/My-Creations/tree/main/subhosty) and download the `.sty` files. You can either clone the repository or directly download the files you need.  
+
+
+##### 2. *Place the Files in Your Project*
+Move the `.sty` files to the same directory as your LaTeX project (where your `.tex` file resides) or a folder included in your LaTeX path.  
+
+
+##### 3. *Include the .sty Files in Your Document*  
+To use the `.sty` file, include it in your LaTeX document with the `\usepackage` command. 
+
+**Example Files - - -** [GitHub repository](https://github.com/SubhojitMaji/My-Creations/tree/main/subhosty)
+:::
+
+:::{.callout-tip collapse="true"}
+# 💡 Pro Tip
+
+If you’re frequently using these .sty files, consider adding them to your LaTeX distribution’s local path for easy access across all your projects.
+:::
+
+:::

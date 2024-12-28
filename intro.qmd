@@ -1,0 +1,56 @@
+---
+format: html
+toc: false
+target: _blank
+from: markdown+emoji
+editor: visual
+---
+
+:::{.content-container .fade-in}
+
+# Academic Portfolio {.section-title}
+
+:::{.highlight-card .slide-in-left}
+## Semester I Coursework
+
+### Real Analysis I
+- Instructor: [Prof. BV Rajarama Bhatt](https://www.isibang.ac.in/~bhat/)
+- [Course Notes](https://drive.google.com/file/d/15aQW5bT4oBRqTgWve05l_CL1jxj97ieQ/view?usp=sharing)
+
+### Fundamentals of Computer Programming
+- Instructor: [Prof. Jishnu Gupta Biswas](https://isi.irins.org/profile/13204)
+- [Course Page](https://www.isibang.ac.in/~adean/infsys/database/Bmath/FCP.html)
+- [C Programming Reference](https://drive.google.com/file/d/1JgIz5I723BBlrkGD4n0qE4n5U89LD3XY/view?usp=sharing)
+
+### Probability I
+- Instructor: [Prof. Mathew Joseph](https://sites.google.com/view/mjoseph/home)
+- Area of special interest and research focus
+
+### Elementary Number Theory
+- Instructor: [Prof. Ramdin Mawia](https://sites.google.com/view/ramdinmawia/home)
+- [Assignment Collection](https://drive.google.com/file/d/1a-w8kH7kZud-1WypK9IrwDW7UoYUFmZf/view?usp=sharing)
+
+### Linear Algebra I
+- Instructor: [Prof. Anita Naolekar](https://www.isibang.ac.in/~statmath/homepage.html)
+- [Course Details](https://www.isibang.ac.in/~adean/infsys/database/Bmath/LAlg1.html)
+:::
+
+:::{.highlight-card .fade-in}
+## Beyond Academics
+
+- **Cultural Committee Representative** : Curated diverse cultural experiences, fostering a global atmosphere on campus.
+- **Design Team Manager for [LIMIT](limitisi.in)** : Honed creative vision and communication skills, led a design team.
+- **Active participation in campus life and student activities** : Connected with peers and forged lasting friendships.
+:::
+
+:::{.highlight-card .slide-in-left}
+## Semester II
+*Current coursework in progress*
+:::
+
+:::
+
+::: {.footer-content}
+Built with ❤️ using [Quarto](https://quarto.org)  
+Last updated: December 2024
+:::

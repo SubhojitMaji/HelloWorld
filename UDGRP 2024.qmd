@@ -1,0 +1,61 @@
+---
+title: "Winter UDGRP 24"
+subtitle: "The secret handshake of information, passed down through generations."
+format:
+  html:
+    fontsize: 1.1em
+    linestretch: 1.5
+    toc: false
+    from: markdown+emoji
+    code-tools: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-icon: true
+    link-external-newwindow: true
+editor: visual
+---
+
+:::{.highlight-card .fade-in}
+## Enumerative Combinatorics
+
+::: {.callout-note collapse="true"}
+## Enumerative Combinatorics (By [Hrishik Koley](https://hrishik-koley.github.io))
+
+
+Here, we explored:
+
+
+- Group Theory (Geometric focus)
+- Generating Functions
+- Graph Theory
+     - Planar Graphs
+     - Perfect Graphs
+     - Ramsey's Number and Theorem
+- Lovasz-Local Theorem
+- Kuratowski's Theorem (Thanks to Aayushman Mallick & Arkaprovo Das for the presentation!)
+- Random Graphs and Ramsey's Number ([My Presentation](https://drive.google.com/file/d/1UxLhH8ogvzA7uRu-Fvv1YKaoC8QWKlkZ/view?usp=sharing) :wink:)
+
+
+Resources and detailed Overview of the [Course](https://hrishik-koley.github.io/musings/enumerative_combinatorics/*)
+:::
+
+:::
+
+:::{.highlight-card .fade-in}
+## Introduction to Dynamical Systems
+
+::: {.callout-note collapse="true"}
+## Introduction to Dynamical Systems (By [Aritrabha Majumdar](https://paulpseudoman.github.io/))
+
+>This introductory course covered:
+
+>* Basic Linear Algebra
+>* Stability of Ordinary Differential Equations
+>    * Linear Systems
+>    * Non-Linear Systems (Local Theory)
+>* Picard's Method of Successive Approximation
+>* Maximal Interval of Existence
+
+Course notes: [link](https://paulpseudoman.github.io/DSnotes.pdf)
+:::
+:::

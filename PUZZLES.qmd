@@ -1,0 +1,103 @@
+---
+format: html
+subtitle: "Uff!! Here comes the relief from some routine course works."
+toc: false
+from: markdown+emoji
+editor: visual
+---
+# Puzzles for our Young Minds {.unnumbered}
+::: {.callout-note collapse="true"}
+## Iterated Sine 
+
+Consider the function $f_n(x)$ defined for positive integers $n$ and real numbers $x$ by 
+$f_n(x) = \sin(\sin(\sin(\cdots (\sin x)))),$
+with $n$ applications of the sine function. Thus 
+$f_2(x) = \sin(\sin x), \quad f_3(x) = \sin(\sin(\sin x)),$
+and so on.
+
+Let $x \in (0, \pi/2)$ be chosen, and let the sequence 
+$f_1(x), f_2(x), f_3(x), \dots, f_{100}(x),$
+be computed. It is found that for each fixed $x$ and for all sufficiently large $n$, we have 
+$f_n(x) \approx \sqrt{\frac{3}{n}}.$
+How may this phenomenon be explained?
+
+
+::: {.callout-tip collapse="true"}
+### Solution
+
+$\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\textbf{Video Solution}}$
+
+#### Banach-Contraction Mapping
+Try checking out about Banach's-Contraction Mapping to get a better idea.
+
+:::
+
+:::
+
+::: {.callout-note collapse="true"}
+## Maximums
+
+Assume the quartic polynomial 
+$x^4 - ax^3 + bx^2 - ax + d = 0$
+has four real roots namely, $\frac{1}{2} \leq x_1, x_2, x_3, x_4 \leq 2$. Find the maximum possible value of 
+$\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.$
+
+::: {.callout-tip collapse="true"}
+### Solution 
+
+$\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\textbf{Video Solution}}$
+
+:::
+:::
+:::{.callout-note collapse="true"}
+## Polynomial Approximations
+
+Prove that : 
+
+> The set of polynomial functions on $[a,b]$ is dense in $C([a,b])$ 
+
+:::{.callout-tip collapse="true"}
+### Hints
+
+The following problem can be rephrased as follows
+
+> For every continuous function $f(x)$ defined on $[a,b]$ , there is a nice polynomial $p(x)$ that approximates it ie, $\forall \epsilon > 0$ there exists p(x) such that  $|f(x) - p(x)| < \epsilon \; \forall x \in [a,b]$ , these polynomials are called as $\textbf{Bernstein Polynomials}$
+
+#### Some Facts
+
+- As there is a bijection , show that it holds for $C[0,1]$ and it holds true for $C[a,b]$
+- Let's denote the k-th Binomial Coefficient $B_{n,k}$ = $\binom{n}{k} x^k ({1-x})^{n-k}$ . 
+
+Then the n-th Bernstein Polynomial is $P_{f,n}(x)$ = $\sum_{k=0}^{n} f\left(\frac{k}{n}\right)B_{n,k}$
+
+:::
+:::
+
+
+:::{.callout-note collapse="true"}
+## Smallest Set of integers
+
+Let $S$ be the smallest set of positive integers such that
+
+a) $2$ is in $S,$
+b) $n$ is in $S$ whenever $n^2$ is in $S,$ and
+c) $(n+5)^2$ is in $S$ whenever $n$ is in $S.$
+
+Which positive integers are not in $S?$
+
+It was a very old PUTNAM Problem as far as I could remeber.
+So please do try it before looking at the solution, it is too easy ...
+
+:::{.callout-tip collapse="true"}
+## Text Solution
+
+
+The only positive integers not in $S$ are $1$ and the set of numbers divisible by $5.$
+
+A lemma to start with: if $n\in S,$ then $n+5k\in S$ for all $k\in\mathbb{N}$ We get then by the steps $n\to (n+5)^2\to n+5,$ repeated as many times as needed.
+
+Based on that lemma, we make cases in the argument for each residue class mod $5.$ We see right away that if we don't already have a multiple of $5,$ we're never going to get one. Beyond that, to show the claim stated above, we must show that $2,3,4,$ and $6$ must be in $S.$ We already have $2\in S$ as given. We have the chain $2\to 49\to 54^2.$ Note that $54^2\equiv 1\pmod{5},$ which gives us all larger numbers that $\equiv 1\pmod{5}.$ One such larger number is $2^{16}=256^2.$ That gives us $256^2\to 256 \to 16\to 4.$ From $4$ we have $4\to 9\to 3.$ From $16$ we can get to $16+5\cdot 4=36,$ and then $36\to 6.$ Hence we have all of $2,3,4,$ and $6$ in $S$ and $S$ must be as claimed.
+
+We do note that the only way to go from a larger number to a smaller number is to go from $n^2$ to $n.$ But $1^2=1,$ so there is no way to get $1$ from a larger number.
+:::
+:::
