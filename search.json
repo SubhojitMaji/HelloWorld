@@ -80,14 +80,14 @@
     ]
   },
   {
-    "objectID": "Latex.html",
-    "href": "Latex.html",
+    "objectID": "Latex.html#story-time",
+    "href": "Latex.html#story-time",
     "title": "LaTeX Styling",
-    "section": "",
-    "text": "Story Time 😁\n🎉 Welcome! These .sty files, crafted by me, are designed to enhance your LaTeX experience by adding style and functionality to your documents. Here’s how you can use them:\nI had to work on the UDGRP Projects of Winter 2024 and there I had to use a lot of latex and make Beamer files and Latex Notes and while there were ample number of templates on OverLeaf but it seemed too boring and it lacked the personal touch I wanted to give to my presentations. So, I decided to create my own sty theme and customize it according to my preferences. 😄",
+    "section": "Story Time 😁",
+    "text": "Story Time 😁\nI had to work on the UDGRP Projects of Winter 2024 and there I had to use a lot of latex and make Beamer files and Latex Notes and while there were ample number of templates on OverLeaf but it seemed too boring and it lacked the personal touch I wanted to give to my presentations. So, I decided to create my own sty theme and customize it according to my preferences. 😄",
     "crumbs": [
       "My Hobbies",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>LaTeX Styling</span>"
+      "LaTeX Styling"
     ]
   },
   {
@@ -98,7 +98,7 @@
     "text": "FAQ 😕\n\nQ. How do I use them ?\nPrimarily crafted for the mathematically inclined 🧠, this toolset is ideal for penning articles and books on Mathematics and its mischievous offspring, Applied Mathematics (aka Physics) 💥. No offense to any field, of course! 😇 Physics, bless its chaotic heart ❤️, keeps mathematicians on their toes with its constant demand for elegant solutions to messy real-world problems 🤯. Otherwise, we’d all be stuck proving theorems in a vacuum 🕳️, and frankly, that sounds terribly dull 😴.\n\n\n\n\n\n\n🚀 Simple Steps to Get Started\n\n\n\n\n\n\n1. Download the Files\nHead over to the GitHub repository and download the .sty files. You can either clone the repository or directly download the files you need.\n\n\n2. Place the Files in Your Project\nMove the .sty files to the same directory as your LaTeX project (where your .tex file resides) or a folder included in your LaTeX path.\n\n\n3. Include the .sty Files in Your Document\nTo use the .sty file, include it in your LaTeX document with the \\usepackage command.\nExample Files - - - GitHub repository\n\n\n\n\n\n\n\n\n\n\n💡 Pro Tip\n\n\n\n\n\nIf you’re frequently using these .sty files, consider adding them to your LaTeX distribution’s local path for easy access across all your projects.",
     "crumbs": [
       "My Hobbies",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>LaTeX Styling</span>"
+      "LaTeX Styling"
     ]
   },
   {
@@ -109,7 +109,7 @@
     "text": "Enumerative Combinatorics",
     "crumbs": [
       "UDGRP's",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>UDGRP 2024</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>UDGRP 2024</span>"
     ]
   },
   {
@@ -120,7 +120,7 @@
     "text": "Enumerative Combinatorics (By Hrishik Koley)\n\n\n\n\n\nHere, we explored:\n\nGroup Theory (Geometric focus)\nGenerating Functions\nGraph Theory\n\nPlanar Graphs\nPerfect Graphs\nRamsey’s Number and Theorem\n\nLovasz-Local Theorem\nKuratowski’s Theorem (Thanks to Aayushman Mallick & Arkaprovo Das for the presentation!)\nRandom Graphs and Ramsey’s Number (My Presentation 😉)\n\nResources and detailed Overview of the Course",
     "crumbs": [
       "UDGRP's",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>UDGRP 2024</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>UDGRP 2024</span>"
     ]
   },
   {
@@ -131,7 +131,7 @@
     "text": "Introduction to Dynamical Systems\n\n\n\n\n\n\nIntroduction to Dynamical Systems (By Aritrabha Majumdar)\n\n\n\n\n\n\nThis introductory course covered:\n\n\n\nBasic Linear Algebra\nStability of Ordinary Differential Equations\n\nLinear Systems\nNon-Linear Systems (Local Theory)\n\nPicard’s Method of Successive Approximation\nMaximal Interval of Existence\n\n\nCourse notes: link",
     "crumbs": [
       "UDGRP's",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>UDGRP 2024</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>UDGRP 2024</span>"
     ]
   },
   {
