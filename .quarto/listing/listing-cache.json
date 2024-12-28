@@ -1,0 +1,7 @@
+{
+  "listingMap": {
+    "Resources/index.qmd": [
+      "*.qmd"
+    ]
+  }
+}

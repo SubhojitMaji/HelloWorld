@@ -1,0 +1,167 @@
+[
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Embrace the Majesty",
+    "section": "Welcome! 👋",
+    "text": "Welcome! 👋\nI’m Subhojit Maji, a B.Math undergraduate at Indian Statistical Institute, Bangalore 🎓. I was born into a sweet family in 2005 🍼, in Asansol, India. 🌏\nI’m known for my sense of humor 🤭 and enjoy engaging in fun, lively interactions with people. During my free time, I love diving into the world of coding 👨‍💻—a passion I discovered shortly after my first semester at ISI. From experimenting with algorithms to building small projects, coding feels like both a playground and a puzzle to me.\nMy primary research interest is Probability Theory 📊, where I’m constantly fascinated by the beauty of randomness and structure. That said, my curiosity isn’t limited—I love exploring various mathematical and computational ideas, which keeps my learning journey vibrant and rewarding.\nBeyond academics, I enjoy connecting with like-minded peers, brainstorming innovative ideas, and occasionally indulging in hobbies that make life more colorful! 🎨✨",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome! :wave:</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#current-endeavors",
+    "href": "index.html#current-endeavors",
+    "title": "Embrace the Majesty",
+    "section": "Current Endeavors",
+    "text": "Current Endeavors\n\n\n🏆 LIMIT Design Team\nMerging technical expertise with creative design to craft innovative solutions.\n\n\n👥 Cultural Committee Lead\nFostering community through vibrant events at ISI Bangalore.\n\n\n💻 Problem Solving\nTackling complex mathematical challenges and coding puzzles.\n\n\n📚 UDGRP 2024\nExploring Random Graphs and Probabilistic Methods through winter research.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome! :wave:</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#semester-i-coursework",
+    "href": "intro.html#semester-i-coursework",
+    "title": "Academic Portfolio",
+    "section": "Semester I Coursework",
+    "text": "Semester I Coursework\n\nReal Analysis I\n\nInstructor: Prof. BV Rajarama Bhatt\nCourse Notes\n\n\n\nFundamentals of Computer Programming\n\nInstructor: Prof. Jishnu Gupta Biswas\nCourse Page\nC Programming Reference\n\n\n\nProbability I\n\nInstructor: Prof. Mathew Joseph\nArea of special interest and research focus\n\n\n\nElementary Number Theory\n\nInstructor: Prof. Ramdin Mawia\nAssignment Collection\n\n\n\nLinear Algebra I\n\nInstructor: Prof. Anita Naolekar\nCourse Details",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Portfolio</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#beyond-academics",
+    "href": "intro.html#beyond-academics",
+    "title": "Academic Portfolio",
+    "section": "Beyond Academics",
+    "text": "Beyond Academics\n\nCultural Committee Representative : Curated diverse cultural experiences, fostering a global atmosphere on campus.\nDesign Team Manager for LIMIT : Honed creative vision and communication skills, led a design team.\nActive participation in campus life and student activities : Connected with peers and forged lasting friendships.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Portfolio</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#semester-ii",
+    "href": "intro.html#semester-ii",
+    "title": "Academic Portfolio",
+    "section": "Semester II",
+    "text": "Semester II\nCurrent coursework in progress",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Academic Portfolio</span>"
+    ]
+  },
+  {
+    "objectID": "Pro-BABLE.html",
+    "href": "Pro-BABLE.html",
+    "title": "Pro-Bable",
+    "section": "",
+    "text": "Spread of Rumours\n\n\n\n\n\nIn a small town of n people a person passes a titbit of information to another person. A rumour is now launched with each recipient of the information passing it on to a randomly chosen individual. What is the probability that the rumour is told r times \\(\\textit{without}\\)\n\nreturning to the originator,\nbeing repeated to anyone.\n\n\n\n\n\n\n\nGeneralisation\n\n\n\n\n\nRedo the calculations if each person tells the rumour to m randomly selected people .\n\n\n\n\n\n\n\n\n\n\n\n\nIncreasing Seuence of Events\n\n\n\n\n\nSuppose \\(\\set{A_n \\vert n&gt;1}\\) is an increasing sequence of events such that , \\(A_n \\subseteq A_{n+1}\\) for each n . Let A = \\(\\bigcup_{n=i}^\\infty A_n\\) . Show that \\(P(A_n)\\) \\(\\rightarrow P(A)\\) as n \\(\\rightarrow \\infty\\) .\n\n\n\n\n\n\n\n\n\nDice Game\n\n\n\n\n\nIf three dice are thrown. What is the probability that one shows a 6 given that no two show the same face? Repeat for n dice where \\(2 &lt; n &lt; 6\\)\n\n\n\n\n\n\n\n\n\nHow many couples will Survive ?\n\n\n\n\n\nSuppose there are \\(2n\\) individuals who constitute \\(n\\) married couples at a given initial date. We wish to consider the survivors at some given later date. Assume each individual has a probability \\(p\\) of surviving until the later date (and possibly more!), independent of the others. Let \\(s\\) denote the number of survivors at the later date and \\(c\\) denote the number of surviving couples (in which both partners are alive). The problem is to derive an expression for \\(\\mathbb{E}(c \\mid s)\\) and show that it does not depend on \\(p\\). What about \\(\\mathbb{E}(s \\mid c)\\)?",
+    "crumbs": [
+      "Pro-Bable"
+    ]
+  },
+  {
+    "objectID": "AL-ZEBRA.html",
+    "href": "AL-ZEBRA.html",
+    "title": "ALL-ZEBRAS",
+    "section": "",
+    "text": "The Most Common Determinant\n\n\n\n\n\nDetermine the value of the determinant of\n\\[\\begin{vmatrix}\\gcd (1,1)&\\gcd (1,2)&\\cdots &\\gcd (1,n)\\\\\\gcd (2,1)&\\gcd (2,2)&\\cdots &\\gcd (2,n)\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\\\gcd (n,1)&\\gcd (n,2)&\\cdots &\\gcd (n,n)\\end{vmatrix}\\]\n\n\n\n\n\n\n\n\n\n\n\nSome Eigen Stuffs\n\n\n\n\n\nDistinct Eigen-Values correspond to linearly independent Eigen-Vectors.(Prove it !!)\n\n\n\n\n\n\nNote\n\n\n\n\n\nIf all eigen vectors are linearly independent then the matrix is diagonalizable and the diagonal matrix has \\(\\lambda_1 , \\lambda_2, \\cdots \\lambda_n\\) as diagonal entries.\n\n\n\n\n\n\n\n\n\n\n\n\nSeries is good for Health\n\n\n\n\n\nLet \\(a_n = (\\ln 3)^n \\sum_{k=1}^{n} \\frac{k^2}{k!(n-k)!}\\) . Then the sum of the series \\(a_1 + a_2 + a_3 + ... \\to \\infty\\) , is equal to?\n\n\n\n\n\n\nSolution\n\n\n\n\n\nVideo Solution\n\n\n\n\n\n\n\n\n\n\n\n\nSame-Same Yet Different!!\n\n\n\n\n\nA is a \\(n \\times m\\) matrix and B is a \\(m \\times n\\) matrix . If \\(|I_{n} - AB|\\) is non-singular so is \\(|I_{m} - BA|\\)\n\n\n\n\n\n\n\n\n\nINMO 2024\n\n\n\n\n\nFor each positive integer \\(n \\ge 3\\), define \\(A_n\\) and \\(B_n\\) as \\(A_n = \\sqrt{n^2 + 1} + \\sqrt{n^2 + 3} + \\cdots + \\sqrt{n^2+2n-1}\\) , \\(B_n = \\sqrt{n^2 + 2} + \\sqrt{n^2 + 4} + \\cdots + \\sqrt{n^2 + 2n}.\\) Determine all positive integers \\(n\\ge 3\\) for which \\(\\lfloor A_n \\rfloor = \\lfloor B_n \\rfloor\\).\n\n\n\n\n\n\nNote\n\n\n\n\n\nFor any real number \\(x\\), \\(\\lfloor x\\rfloor\\) denotes the largest integer \\(N\\le x\\).",
+    "crumbs": [
+      "ALL-ZEBRAS"
+    ]
+  },
+  {
+    "objectID": "PUZZLES.html",
+    "href": "PUZZLES.html",
+    "title": "Puzzles for our Young Minds",
+    "section": "",
+    "text": "Iterated Sine\n\n\n\n\n\nConsider the function \\(f_n(x)\\) defined for positive integers \\(n\\) and real numbers \\(x\\) by \\(f_n(x) = \\sin(\\sin(\\sin(\\cdots (\\sin x)))),\\) with \\(n\\) applications of the sine function. Thus \\(f_2(x) = \\sin(\\sin x), \\quad f_3(x) = \\sin(\\sin(\\sin x)),\\) and so on.\nLet \\(x \\in (0, \\pi/2)\\) be chosen, and let the sequence \\(f_1(x), f_2(x), f_3(x), \\dots, f_{100}(x),\\) be computed. It is found that for each fixed \\(x\\) and for all sufficiently large \\(n\\), we have \\(f_n(x) \\approx \\sqrt{\\frac{3}{n}}.\\) How may this phenomenon be explained?\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\href{https://youtu.be/qN-dj94NHNY?si=zgsGB23e6bzrYGQl}{\\textbf{Video Solution}}\\)\n\nBanach-Contraction Mapping\nTry checking out about Banach’s-Contraction Mapping to get a better idea.\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaximums\n\n\n\n\n\nAssume the quartic polynomial \\(x^4 - ax^3 + bx^2 - ax + d = 0\\) has four real roots namely, \\(\\frac{1}{2} \\leq x_1, x_2, x_3, x_4 \\leq 2\\). Find the maximum possible value of \\(\\frac{(x_1 + x_2)(x_1 + x_3)x_4}{(x_4 + x_2)(x_4 + x_3)x_1}.\\)\n\n\n\n\n\n\nSolution\n\n\n\n\n\n\\(\\href{https://www.youtube.com/watch?v=o-mX3byaZ5k}{\\textbf{Video Solution}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\nPolynomial Approximations\n\n\n\n\n\nProve that :\n\nThe set of polynomial functions on \\([a,b]\\) is dense in \\(C([a,b])\\)\n\n\n\n\n\n\n\nHints\n\n\n\n\n\nThe following problem can be rephrased as follows\n\nFor every continuous function \\(f(x)\\) defined on \\([a,b]\\) , there is a nice polynomial \\(p(x)\\) that approximates it ie, \\(\\forall \\epsilon &gt; 0\\) there exists p(x) such that \\(|f(x) - p(x)| &lt; \\epsilon \\; \\forall x \\in [a,b]\\) , these polynomials are called as \\(\\textbf{Bernstein Polynomials}\\)\n\n\nSome Facts\n\nAs there is a bijection , show that it holds for \\(C[0,1]\\) and it holds true for \\(C[a,b]\\)\nLet’s denote the k-th Binomial Coefficient \\(B_{n,k}\\) = \\(\\binom{n}{k} x^k ({1-x})^{n-k}\\) .\n\nThen the n-th Bernstein Polynomial is \\(P_{f,n}(x)\\) = \\(\\sum_{k=0}^{n} f\\left(\\frac{k}{n}\\right)B_{n,k}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmallest Set of integers\n\n\n\n\n\nLet \\(S\\) be the smallest set of positive integers such that\n\n\\(2\\) is in \\(S,\\)\n\\(n\\) is in \\(S\\) whenever \\(n^2\\) is in \\(S,\\) and\n\\((n+5)^2\\) is in \\(S\\) whenever \\(n\\) is in \\(S.\\)\n\nWhich positive integers are not in \\(S?\\)\n\nProblem-Source\nIt was PUTNAM problem as far as I could remeber.\nSo please do try it before looking at the solution , it is too easy …\n\n\n\n\n\n\nText Solution\n\n\n\n\n\nThe only positive integers not in \\(S\\) are \\(1\\) and the set of numbers divisible by \\(5.\\)\nA lemma to start with: if \\(n\\in S,\\) then \\(n+5k\\in S\\) for all \\(k\\in\\mathbb{N}\\) We get then by the steps \\(n\\to (n+5)^2\\to n+5,\\) repeated as many times as needed.\nBased on that lemma, we make cases in the argument for each residue class mod \\(5.\\) We see right away that if we don’t already have a multiple of \\(5,\\) we’re never going to get one. Beyond that, to show the claim stated above, we must show that \\(2,3,4,\\) and \\(6\\) must be in \\(S.\\) We already have \\(2\\in S\\) as given. We have the chain \\(2\\to 49\\to 54^2.\\) Note that \\(54^2\\equiv 1\\pmod{5},\\) which gives us all larger numbers that \\(\\equiv 1\\pmod{5}.\\) One such larger number is \\(2^{16}=256^2.\\) That gives us \\(256^2\\to 256 \\to 16\\to 4.\\) From \\(4\\) we have \\(4\\to 9\\to 3.\\) From \\(16\\) we can get to \\(16+5\\cdot 4=36,\\) and then \\(36\\to 6.\\) Hence we have all of \\(2,3,4,\\) and \\(6\\) in \\(S\\) and \\(S\\) must be as claimed.\nWe do note that the only way to go from a larger number to a smaller number is to go from \\(n^2\\) to \\(n.\\) But \\(1^2=1,\\) so there is no way to get \\(1\\) from a larger number.",
+    "crumbs": [
+      "Puzzles for our Young Minds"
+    ]
+  },
+  {
+    "objectID": "Latex.html#story-time",
+    "href": "Latex.html#story-time",
+    "title": "LaTeX Styling",
+    "section": "Story Time 😁",
+    "text": "Story Time 😁\nI had to work on the UDGRP Projects of Winter 2024 and there I had to use a lot of latex and make Beamer files and Latex Notes and while there were ample number of templates on OverLeaf but it seemed too boring and it lacked the personal touch I wanted to give to my presentations. So, I decided to create my own sty theme and customize it according to my preferences. 😄",
+    "crumbs": [
+      "My Hobbies",
+      "LaTeX Styling"
+    ]
+  },
+  {
+    "objectID": "Latex.html#faq",
+    "href": "Latex.html#faq",
+    "title": "LaTeX Styling",
+    "section": "FAQ 😕",
+    "text": "FAQ 😕\n\nQ. How do I use them ?\nPrimarily crafted for the mathematically inclined 🧠, this toolset is ideal for penning articles and books on Mathematics and its mischievous offspring, Applied Mathematics (aka Physics) 💥. No offense to any field, of course! 😇 Physics, bless its chaotic heart ❤️, keeps mathematicians on their toes with its constant demand for elegant solutions to messy real-world problems 🤯. Otherwise, we’d all be stuck proving theorems in a vacuum 🕳️, and frankly, that sounds terribly dull 😴.\n\n\n\n\n\n\n🚀 Simple Steps to Get Started\n\n\n\n\n\n\n1. Download the Files\nHead over to the GitHub repository and download the .sty files. You can either clone the repository or directly download the files you need.\n\n\n2. Place the Files in Your Project\nMove the .sty files to the same directory as your LaTeX project (where your .tex file resides) or a folder included in your LaTeX path.\n\n\n3. Include the .sty Files in Your Document\nTo use the .sty file, include it in your LaTeX document with the \\usepackage command.\nExample Files - - - GitHub repository\n\n\n\n\n\n\n\n\n\n\n💡 Pro Tip\n\n\n\n\n\nIf you’re frequently using these .sty files, consider adding them to your LaTeX distribution’s local path for easy access across all your projects.",
+    "crumbs": [
+      "My Hobbies",
+      "LaTeX Styling"
+    ]
+  },
+  {
+    "objectID": "UDGRP 2024.html",
+    "href": "UDGRP 2024.html",
+    "title": "Winter UDGRP 24",
+    "section": "",
+    "text": "Enumerative Combinatorics",
+    "crumbs": [
+      "UDGRP's",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>UDGRP 2024</span>"
+    ]
+  },
+  {
+    "objectID": "UDGRP 2024.html#enumerative-combinatorics",
+    "href": "UDGRP 2024.html#enumerative-combinatorics",
+    "title": "Winter UDGRP 24",
+    "section": "",
+    "text": "Enumerative Combinatorics (By Hrishik Koley)\n\n\n\n\n\nHere, we explored:\n\nGroup Theory (Geometric focus)\nGenerating Functions\nGraph Theory\n\nPlanar Graphs\nPerfect Graphs\nRamsey’s Number and Theorem\n\nLovasz-Local Theorem\nKuratowski’s Theorem (Thanks to Aayushman Mallick & Arkaprovo Das for the presentation!)\nRandom Graphs and Ramsey’s Number (My Presentation 😉)\n\nResources and detailed Overview of the Course",
+    "crumbs": [
+      "UDGRP's",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>UDGRP 2024</span>"
+    ]
+  },
+  {
+    "objectID": "UDGRP 2024.html#introduction-to-dynamical-systems",
+    "href": "UDGRP 2024.html#introduction-to-dynamical-systems",
+    "title": "Winter UDGRP 24",
+    "section": "Introduction to Dynamical Systems",
+    "text": "Introduction to Dynamical Systems\n\n\n\n\n\n\nIntroduction to Dynamical Systems (By Aritrabha Majumdar)\n\n\n\n\n\n\nThis introductory course covered:\n\n\n\nBasic Linear Algebra\nStability of Ordinary Differential Equations\n\nLinear Systems\nNon-Linear Systems (Local Theory)\n\nPicard’s Method of Successive Approximation\nMaximal Interval of Existence\n\n\nCourse notes: link",
+    "crumbs": [
+      "UDGRP's",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>UDGRP 2024</span>"
+    ]
+  },
+  {
+    "objectID": "acheivements.html",
+    "href": "acheivements.html",
+    "title": "My-Journey",
+    "section": "",
+    "text": "It is the list of thing done before joining ISI ☺️ !!\n\n\n\n\n\n\nQualified JEE Mains in 2024(With 99.57 percentile).\nQualified JEE Advanced.\nQualified WBJEE in 2024(Rank 291).\nQualified for RMO twice(in the years 2020 and 2023).\nParticipated at OPhO(Online Physics Olympiad by Jaan Kalda).\nQualified ISI B.Math Entrance Exam.\nBronze Medalist at DIGO(Conducted by AoPS).\nRecieved the Centre Topper Certificates for NSEP, NSEC and NSEA.\nCBSE Boards Class X - 95% and Class XII - 93% .",
+    "crumbs": [
+      "My-Journey"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "‘There is always a probability of winning in life , no matter which stage you are at. Just believe in yourself and make the best choices.’",
+    "crumbs": [
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "A Basic Introduction to Randomness by Rajeeva L Karandikar .",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
